@@ -1,0 +1,8571 @@
+{
+  "id": "PAT001",
+  "patient": {
+    "name": "Kumar^Oshonik",
+    "studyDate": "20260428",
+    "studyDescription": "MR Brain W/WO Cont"
+  },
+  "series": [
+    {
+      "description": "Lexmark",
+      "uid": "1.3.6.1.4.1.48948.345050426135.29782718432086.674",
+      "seriesNumber": "1",
+      "rows": 1656,
+      "cols": 1268,
+      "windowCenter": "128",
+      "windowWidth": "256",
+      "thickness": "",
+      "files": [
+        {
+          "file": "STUDY001/1665.dcm",
+          "instance": 1,
+          "z": null
+        },
+        {
+          "file": "STUDY001/1662.dcm",
+          "instance": 2,
+          "z": null
+        },
+        {
+          "file": "STUDY001/1658.dcm",
+          "instance": 3,
+          "z": null
+        },
+        {
+          "file": "STUDY001/1660.dcm",
+          "instance": 4,
+          "z": null
+        },
+        {
+          "file": "STUDY001/1661.dcm",
+          "instance": 5,
+          "z": null
+        },
+        {
+          "file": "STUDY001/1659.dcm",
+          "instance": 6,
+          "z": null
+        },
+        {
+          "file": "STUDY001/1663.dcm",
+          "instance": 7,
+          "z": null
+        },
+        {
+          "file": "STUDY001/1664.dcm",
+          "instance": 8,
+          "z": null
+        },
+        {
+          "file": "STUDY001/1666.dcm",
+          "instance": 9,
+          "z": null
+        },
+        {
+          "file": "STUDY001/1667.dcm",
+          "instance": 10,
+          "z": null
+        },
+        {
+          "file": "STUDY001/1669.dcm",
+          "instance": 11,
+          "z": null
+        },
+        {
+          "file": "STUDY001/1668.dcm",
+          "instance": 12,
+          "z": null
+        }
+      ]
+    },
+    {
+      "description": "COR T2 FS FLAIR TRIG",
+      "uid": "1.3.12.2.1107.5.2.42.170036.30000026042712515153600019010",
+      "seriesNumber": "10",
+      "rows": 0,
+      "cols": 0,
+      "windowCenter": "",
+      "windowWidth": "",
+      "thickness": "2.5",
+      "files": [
+        {
+          "file": "STUDY001/440.dcm",
+          "instance": 1,
+          "z": 24.4326
+        },
+        {
+          "file": "STUDY001/441.dcm",
+          "instance": 2,
+          "z": 24.4374
+        },
+        {
+          "file": "STUDY001/442.dcm",
+          "instance": 3,
+          "z": 24.4422
+        },
+        {
+          "file": "STUDY001/443.dcm",
+          "instance": 4,
+          "z": 24.4469
+        },
+        {
+          "file": "STUDY001/444.dcm",
+          "instance": 5,
+          "z": 24.4517
+        },
+        {
+          "file": "STUDY001/445.dcm",
+          "instance": 6,
+          "z": 24.4565
+        },
+        {
+          "file": "STUDY001/446.dcm",
+          "instance": 7,
+          "z": 24.4613
+        },
+        {
+          "file": "STUDY001/447.dcm",
+          "instance": 8,
+          "z": 24.4661
+        },
+        {
+          "file": "STUDY001/448.dcm",
+          "instance": 9,
+          "z": 24.4709
+        },
+        {
+          "file": "STUDY001/449.dcm",
+          "instance": 10,
+          "z": 24.4757
+        },
+        {
+          "file": "STUDY001/450.dcm",
+          "instance": 11,
+          "z": 24.4805
+        },
+        {
+          "file": "STUDY001/451.dcm",
+          "instance": 12,
+          "z": 24.4853
+        },
+        {
+          "file": "STUDY001/452.dcm",
+          "instance": 13,
+          "z": 24.4901
+        },
+        {
+          "file": "STUDY001/453.dcm",
+          "instance": 14,
+          "z": 24.4949
+        },
+        {
+          "file": "STUDY001/454.dcm",
+          "instance": 15,
+          "z": 24.4997
+        },
+        {
+          "file": "STUDY001/455.dcm",
+          "instance": 16,
+          "z": 24.5045
+        },
+        {
+          "file": "STUDY001/456.dcm",
+          "instance": 17,
+          "z": 24.5093
+        },
+        {
+          "file": "STUDY001/457.dcm",
+          "instance": 18,
+          "z": 24.5141
+        },
+        {
+          "file": "STUDY001/458.dcm",
+          "instance": 19,
+          "z": 24.5189
+        },
+        {
+          "file": "STUDY001/459.dcm",
+          "instance": 20,
+          "z": 24.5237
+        },
+        {
+          "file": "STUDY001/460.dcm",
+          "instance": 21,
+          "z": 24.5285
+        },
+        {
+          "file": "STUDY001/461.dcm",
+          "instance": 22,
+          "z": 24.5333
+        },
+        {
+          "file": "STUDY001/462.dcm",
+          "instance": 23,
+          "z": 24.5381
+        },
+        {
+          "file": "STUDY001/463.dcm",
+          "instance": 24,
+          "z": 24.5429
+        },
+        {
+          "file": "STUDY001/464.dcm",
+          "instance": 25,
+          "z": 24.5477
+        },
+        {
+          "file": "STUDY001/465.dcm",
+          "instance": 26,
+          "z": 24.5525
+        },
+        {
+          "file": "STUDY001/466.dcm",
+          "instance": 27,
+          "z": 24.5573
+        },
+        {
+          "file": "STUDY001/467.dcm",
+          "instance": 28,
+          "z": 24.5621
+        },
+        {
+          "file": "STUDY001/468.dcm",
+          "instance": 29,
+          "z": 24.5669
+        },
+        {
+          "file": "STUDY001/469.dcm",
+          "instance": 30,
+          "z": 24.5717
+        },
+        {
+          "file": "STUDY001/470.dcm",
+          "instance": 31,
+          "z": 24.5765
+        },
+        {
+          "file": "STUDY001/471.dcm",
+          "instance": 32,
+          "z": 24.5813
+        },
+        {
+          "file": "STUDY001/472.dcm",
+          "instance": 33,
+          "z": 24.5861
+        },
+        {
+          "file": "STUDY001/473.dcm",
+          "instance": 34,
+          "z": 24.5909
+        },
+        {
+          "file": "STUDY001/474.dcm",
+          "instance": 35,
+          "z": 24.5957
+        },
+        {
+          "file": "STUDY001/475.dcm",
+          "instance": 36,
+          "z": 24.6005
+        },
+        {
+          "file": "STUDY001/476.dcm",
+          "instance": 37,
+          "z": 24.6053
+        },
+        {
+          "file": "STUDY001/477.dcm",
+          "instance": 38,
+          "z": 24.6101
+        },
+        {
+          "file": "STUDY001/478.dcm",
+          "instance": 39,
+          "z": 24.6149
+        },
+        {
+          "file": "STUDY001/479.dcm",
+          "instance": 40,
+          "z": 24.6197
+        },
+        {
+          "file": "STUDY001/480.dcm",
+          "instance": 41,
+          "z": 24.6245
+        },
+        {
+          "file": "STUDY001/481.dcm",
+          "instance": 42,
+          "z": 24.6293
+        },
+        {
+          "file": "STUDY001/482.dcm",
+          "instance": 43,
+          "z": 24.6341
+        },
+        {
+          "file": "STUDY001/483.dcm",
+          "instance": 44,
+          "z": 24.6389
+        },
+        {
+          "file": "STUDY001/484.dcm",
+          "instance": 45,
+          "z": 24.6437
+        },
+        {
+          "file": "STUDY001/485.dcm",
+          "instance": 46,
+          "z": 24.6485
+        },
+        {
+          "file": "STUDY001/486.dcm",
+          "instance": 47,
+          "z": 24.6533
+        },
+        {
+          "file": "STUDY001/487.dcm",
+          "instance": 48,
+          "z": 24.6581
+        },
+        {
+          "file": "STUDY001/488.dcm",
+          "instance": 49,
+          "z": 24.6629
+        },
+        {
+          "file": "STUDY001/489.dcm",
+          "instance": 50,
+          "z": 24.6677
+        },
+        {
+          "file": "STUDY001/490.dcm",
+          "instance": 51,
+          "z": 24.6725
+        },
+        {
+          "file": "STUDY001/491.dcm",
+          "instance": 52,
+          "z": 24.6773
+        }
+      ]
+    },
+    {
+      "description": "T1 SPACE COR RECON",
+      "uid": "1.3.12.2.1107.5.2.42.170036.30000026042712515153600021136",
+      "seriesNumber": "1003",
+      "rows": 250,
+      "cols": 590,
+      "windowCenter": "190",
+      "windowWidth": "432",
+      "thickness": "1",
+      "files": [
+        {
+          "file": "STUDY001/1487.dcm",
+          "instance": 1,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1488.dcm",
+          "instance": 2,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1489.dcm",
+          "instance": 3,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1490.dcm",
+          "instance": 4,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1491.dcm",
+          "instance": 5,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1492.dcm",
+          "instance": 6,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1493.dcm",
+          "instance": 7,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1494.dcm",
+          "instance": 8,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1495.dcm",
+          "instance": 9,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1496.dcm",
+          "instance": 10,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1497.dcm",
+          "instance": 11,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1498.dcm",
+          "instance": 12,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1499.dcm",
+          "instance": 13,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1500.dcm",
+          "instance": 14,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1501.dcm",
+          "instance": 15,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1502.dcm",
+          "instance": 16,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1503.dcm",
+          "instance": 17,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1504.dcm",
+          "instance": 18,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1505.dcm",
+          "instance": 19,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1506.dcm",
+          "instance": 20,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1507.dcm",
+          "instance": 21,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1508.dcm",
+          "instance": 22,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1509.dcm",
+          "instance": 23,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1510.dcm",
+          "instance": 24,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1511.dcm",
+          "instance": 25,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1512.dcm",
+          "instance": 26,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1513.dcm",
+          "instance": 27,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1514.dcm",
+          "instance": 28,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1515.dcm",
+          "instance": 29,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1516.dcm",
+          "instance": 30,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1517.dcm",
+          "instance": 31,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1518.dcm",
+          "instance": 32,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1519.dcm",
+          "instance": 33,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1520.dcm",
+          "instance": 34,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1521.dcm",
+          "instance": 35,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1522.dcm",
+          "instance": 36,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1523.dcm",
+          "instance": 37,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1524.dcm",
+          "instance": 38,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1525.dcm",
+          "instance": 39,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1526.dcm",
+          "instance": 40,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1527.dcm",
+          "instance": 41,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1528.dcm",
+          "instance": 42,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1529.dcm",
+          "instance": 43,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1530.dcm",
+          "instance": 44,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1531.dcm",
+          "instance": 45,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1532.dcm",
+          "instance": 46,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1533.dcm",
+          "instance": 47,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1534.dcm",
+          "instance": 48,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1535.dcm",
+          "instance": 49,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1536.dcm",
+          "instance": 50,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1537.dcm",
+          "instance": 51,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1538.dcm",
+          "instance": 52,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1539.dcm",
+          "instance": 53,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1540.dcm",
+          "instance": 54,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1541.dcm",
+          "instance": 55,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1542.dcm",
+          "instance": 56,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1543.dcm",
+          "instance": 57,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1544.dcm",
+          "instance": 58,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1545.dcm",
+          "instance": 59,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1546.dcm",
+          "instance": 60,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1547.dcm",
+          "instance": 61,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1548.dcm",
+          "instance": 62,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1549.dcm",
+          "instance": 63,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1550.dcm",
+          "instance": 64,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1551.dcm",
+          "instance": 65,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1552.dcm",
+          "instance": 66,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1553.dcm",
+          "instance": 67,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1554.dcm",
+          "instance": 68,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1555.dcm",
+          "instance": 69,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1556.dcm",
+          "instance": 70,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1557.dcm",
+          "instance": 71,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1558.dcm",
+          "instance": 72,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1559.dcm",
+          "instance": 73,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1560.dcm",
+          "instance": 74,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1561.dcm",
+          "instance": 75,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1562.dcm",
+          "instance": 76,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1563.dcm",
+          "instance": 77,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1564.dcm",
+          "instance": 78,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1565.dcm",
+          "instance": 79,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1566.dcm",
+          "instance": 80,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1567.dcm",
+          "instance": 81,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1568.dcm",
+          "instance": 82,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1569.dcm",
+          "instance": 83,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1570.dcm",
+          "instance": 84,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1571.dcm",
+          "instance": 85,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1572.dcm",
+          "instance": 86,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1573.dcm",
+          "instance": 87,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1574.dcm",
+          "instance": 88,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1575.dcm",
+          "instance": 89,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1576.dcm",
+          "instance": 90,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1577.dcm",
+          "instance": 91,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1578.dcm",
+          "instance": 92,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1579.dcm",
+          "instance": 93,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1580.dcm",
+          "instance": 94,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1581.dcm",
+          "instance": 95,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1582.dcm",
+          "instance": 96,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1583.dcm",
+          "instance": 97,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1584.dcm",
+          "instance": 98,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1585.dcm",
+          "instance": 99,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1586.dcm",
+          "instance": 100,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1587.dcm",
+          "instance": 101,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1588.dcm",
+          "instance": 102,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1589.dcm",
+          "instance": 103,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1590.dcm",
+          "instance": 104,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1591.dcm",
+          "instance": 105,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1592.dcm",
+          "instance": 106,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1593.dcm",
+          "instance": 107,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1594.dcm",
+          "instance": 108,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1595.dcm",
+          "instance": 109,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1596.dcm",
+          "instance": 110,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1597.dcm",
+          "instance": 111,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1598.dcm",
+          "instance": 112,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1599.dcm",
+          "instance": 113,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1600.dcm",
+          "instance": 114,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1601.dcm",
+          "instance": 115,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1602.dcm",
+          "instance": 116,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1603.dcm",
+          "instance": 117,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1604.dcm",
+          "instance": 118,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1605.dcm",
+          "instance": 119,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1606.dcm",
+          "instance": 120,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1607.dcm",
+          "instance": 121,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1608.dcm",
+          "instance": 122,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1609.dcm",
+          "instance": 123,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1610.dcm",
+          "instance": 124,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1611.dcm",
+          "instance": 125,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1612.dcm",
+          "instance": 126,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1613.dcm",
+          "instance": 127,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1614.dcm",
+          "instance": 128,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1615.dcm",
+          "instance": 129,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1616.dcm",
+          "instance": 130,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1617.dcm",
+          "instance": 131,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1618.dcm",
+          "instance": 132,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1619.dcm",
+          "instance": 133,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1620.dcm",
+          "instance": 134,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1621.dcm",
+          "instance": 135,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1622.dcm",
+          "instance": 136,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1623.dcm",
+          "instance": 137,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1624.dcm",
+          "instance": 138,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1625.dcm",
+          "instance": 139,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1626.dcm",
+          "instance": 140,
+          "z": -35.962383
+        },
+        {
+          "file": "STUDY001/1627.dcm",
+          "instance": 141,
+          "z": -35.962383
+        }
+      ]
+    },
+    {
+      "description": "COR T2 FS FLAIR TRIG",
+      "uid": "1.3.12.2.1107.5.2.42.170036.30000026042712515153600019118",
+      "seriesNumber": "11",
+      "rows": 0,
+      "cols": 0,
+      "windowCenter": "",
+      "windowWidth": "",
+      "thickness": "2.5",
+      "files": [
+        {
+          "file": "STUDY001/492.dcm",
+          "instance": 1,
+          "z": 24.4326
+        },
+        {
+          "file": "STUDY001/493.dcm",
+          "instance": 2,
+          "z": 24.4374
+        },
+        {
+          "file": "STUDY001/494.dcm",
+          "instance": 3,
+          "z": 24.4422
+        },
+        {
+          "file": "STUDY001/495.dcm",
+          "instance": 4,
+          "z": 24.4469
+        },
+        {
+          "file": "STUDY001/496.dcm",
+          "instance": 5,
+          "z": 24.4517
+        },
+        {
+          "file": "STUDY001/497.dcm",
+          "instance": 6,
+          "z": 24.4565
+        },
+        {
+          "file": "STUDY001/498.dcm",
+          "instance": 7,
+          "z": 24.4613
+        },
+        {
+          "file": "STUDY001/499.dcm",
+          "instance": 8,
+          "z": 24.4661
+        },
+        {
+          "file": "STUDY001/500.dcm",
+          "instance": 9,
+          "z": 24.4709
+        },
+        {
+          "file": "STUDY001/501.dcm",
+          "instance": 10,
+          "z": 24.4757
+        },
+        {
+          "file": "STUDY001/502.dcm",
+          "instance": 11,
+          "z": 24.4805
+        },
+        {
+          "file": "STUDY001/503.dcm",
+          "instance": 12,
+          "z": 24.4853
+        },
+        {
+          "file": "STUDY001/504.dcm",
+          "instance": 13,
+          "z": 24.4901
+        },
+        {
+          "file": "STUDY001/505.dcm",
+          "instance": 14,
+          "z": 24.4949
+        },
+        {
+          "file": "STUDY001/506.dcm",
+          "instance": 15,
+          "z": 24.4997
+        },
+        {
+          "file": "STUDY001/507.dcm",
+          "instance": 16,
+          "z": 24.5045
+        },
+        {
+          "file": "STUDY001/508.dcm",
+          "instance": 17,
+          "z": 24.5093
+        },
+        {
+          "file": "STUDY001/509.dcm",
+          "instance": 18,
+          "z": 24.5141
+        },
+        {
+          "file": "STUDY001/510.dcm",
+          "instance": 19,
+          "z": 24.5189
+        },
+        {
+          "file": "STUDY001/511.dcm",
+          "instance": 20,
+          "z": 24.5237
+        },
+        {
+          "file": "STUDY001/512.dcm",
+          "instance": 21,
+          "z": 24.5285
+        },
+        {
+          "file": "STUDY001/513.dcm",
+          "instance": 22,
+          "z": 24.5333
+        },
+        {
+          "file": "STUDY001/514.dcm",
+          "instance": 23,
+          "z": 24.5381
+        },
+        {
+          "file": "STUDY001/515.dcm",
+          "instance": 24,
+          "z": 24.5429
+        },
+        {
+          "file": "STUDY001/516.dcm",
+          "instance": 25,
+          "z": 24.5477
+        },
+        {
+          "file": "STUDY001/517.dcm",
+          "instance": 26,
+          "z": 24.5525
+        },
+        {
+          "file": "STUDY001/518.dcm",
+          "instance": 27,
+          "z": 24.5573
+        },
+        {
+          "file": "STUDY001/519.dcm",
+          "instance": 28,
+          "z": 24.5621
+        },
+        {
+          "file": "STUDY001/520.dcm",
+          "instance": 29,
+          "z": 24.5669
+        },
+        {
+          "file": "STUDY001/521.dcm",
+          "instance": 30,
+          "z": 24.5717
+        },
+        {
+          "file": "STUDY001/522.dcm",
+          "instance": 31,
+          "z": 24.5765
+        },
+        {
+          "file": "STUDY001/523.dcm",
+          "instance": 32,
+          "z": 24.5813
+        },
+        {
+          "file": "STUDY001/524.dcm",
+          "instance": 33,
+          "z": 24.5861
+        },
+        {
+          "file": "STUDY001/525.dcm",
+          "instance": 34,
+          "z": 24.5909
+        },
+        {
+          "file": "STUDY001/526.dcm",
+          "instance": 35,
+          "z": 24.5957
+        },
+        {
+          "file": "STUDY001/527.dcm",
+          "instance": 36,
+          "z": 24.6005
+        },
+        {
+          "file": "STUDY001/528.dcm",
+          "instance": 37,
+          "z": 24.6053
+        },
+        {
+          "file": "STUDY001/529.dcm",
+          "instance": 38,
+          "z": 24.6101
+        },
+        {
+          "file": "STUDY001/530.dcm",
+          "instance": 39,
+          "z": 24.6149
+        },
+        {
+          "file": "STUDY001/531.dcm",
+          "instance": 40,
+          "z": 24.6197
+        },
+        {
+          "file": "STUDY001/532.dcm",
+          "instance": 41,
+          "z": 24.6245
+        },
+        {
+          "file": "STUDY001/533.dcm",
+          "instance": 42,
+          "z": 24.6293
+        },
+        {
+          "file": "STUDY001/534.dcm",
+          "instance": 43,
+          "z": 24.6341
+        },
+        {
+          "file": "STUDY001/535.dcm",
+          "instance": 44,
+          "z": 24.6389
+        },
+        {
+          "file": "STUDY001/536.dcm",
+          "instance": 45,
+          "z": 24.6437
+        },
+        {
+          "file": "STUDY001/537.dcm",
+          "instance": 46,
+          "z": 24.6485
+        },
+        {
+          "file": "STUDY001/538.dcm",
+          "instance": 47,
+          "z": 24.6533
+        },
+        {
+          "file": "STUDY001/539.dcm",
+          "instance": 48,
+          "z": 24.6581
+        },
+        {
+          "file": "STUDY001/540.dcm",
+          "instance": 49,
+          "z": 24.6629
+        },
+        {
+          "file": "STUDY001/541.dcm",
+          "instance": 50,
+          "z": 24.6677
+        },
+        {
+          "file": "STUDY001/542.dcm",
+          "instance": 51,
+          "z": 24.6725
+        },
+        {
+          "file": "STUDY001/543.dcm",
+          "instance": 52,
+          "z": 24.6773
+        }
+      ]
+    },
+    {
+      "description": "AX T2 FSE POST",
+      "uid": "1.3.12.2.1107.5.2.42.170036.30000026042712515153600019582",
+      "seriesNumber": "12",
+      "rows": 0,
+      "cols": 0,
+      "windowCenter": "",
+      "windowWidth": "",
+      "thickness": "4",
+      "files": [
+        {
+          "file": "STUDY001/720.dcm",
+          "instance": 1,
+          "z": -109.611
+        },
+        {
+          "file": "STUDY001/721.dcm",
+          "instance": 2,
+          "z": -104.411
+        },
+        {
+          "file": "STUDY001/722.dcm",
+          "instance": 3,
+          "z": -99.2105
+        },
+        {
+          "file": "STUDY001/723.dcm",
+          "instance": 4,
+          "z": -94.0105
+        },
+        {
+          "file": "STUDY001/724.dcm",
+          "instance": 5,
+          "z": -88.8105
+        },
+        {
+          "file": "STUDY001/725.dcm",
+          "instance": 6,
+          "z": -83.6105
+        },
+        {
+          "file": "STUDY001/726.dcm",
+          "instance": 7,
+          "z": -78.4105
+        },
+        {
+          "file": "STUDY001/727.dcm",
+          "instance": 8,
+          "z": -73.2105
+        },
+        {
+          "file": "STUDY001/728.dcm",
+          "instance": 9,
+          "z": -68.0105
+        },
+        {
+          "file": "STUDY001/729.dcm",
+          "instance": 10,
+          "z": -62.8105
+        },
+        {
+          "file": "STUDY001/730.dcm",
+          "instance": 11,
+          "z": -57.6105
+        },
+        {
+          "file": "STUDY001/731.dcm",
+          "instance": 12,
+          "z": -52.4105
+        },
+        {
+          "file": "STUDY001/732.dcm",
+          "instance": 13,
+          "z": -47.2105
+        },
+        {
+          "file": "STUDY001/733.dcm",
+          "instance": 14,
+          "z": -42.0105
+        },
+        {
+          "file": "STUDY001/734.dcm",
+          "instance": 15,
+          "z": -36.8105
+        },
+        {
+          "file": "STUDY001/735.dcm",
+          "instance": 16,
+          "z": -31.6105
+        },
+        {
+          "file": "STUDY001/736.dcm",
+          "instance": 17,
+          "z": -26.4105
+        },
+        {
+          "file": "STUDY001/737.dcm",
+          "instance": 18,
+          "z": -21.2105
+        },
+        {
+          "file": "STUDY001/738.dcm",
+          "instance": 19,
+          "z": -16.0105
+        },
+        {
+          "file": "STUDY001/739.dcm",
+          "instance": 20,
+          "z": -10.8105
+        },
+        {
+          "file": "STUDY001/740.dcm",
+          "instance": 21,
+          "z": -5.61053
+        },
+        {
+          "file": "STUDY001/741.dcm",
+          "instance": 22,
+          "z": -0.410526
+        },
+        {
+          "file": "STUDY001/742.dcm",
+          "instance": 23,
+          "z": 4.78947
+        },
+        {
+          "file": "STUDY001/743.dcm",
+          "instance": 24,
+          "z": 9.98948
+        },
+        {
+          "file": "STUDY001/744.dcm",
+          "instance": 25,
+          "z": 15.1895
+        },
+        {
+          "file": "STUDY001/745.dcm",
+          "instance": 26,
+          "z": 20.3895
+        },
+        {
+          "file": "STUDY001/746.dcm",
+          "instance": 27,
+          "z": 25.5895
+        },
+        {
+          "file": "STUDY001/747.dcm",
+          "instance": 28,
+          "z": 30.7895
+        },
+        {
+          "file": "STUDY001/748.dcm",
+          "instance": 29,
+          "z": 35.9895
+        },
+        {
+          "file": "STUDY001/749.dcm",
+          "instance": 30,
+          "z": 41.1895
+        }
+      ]
+    },
+    {
+      "description": "T1 SAG FS SPC FLAIR POST",
+      "uid": "1.3.12.2.1107.5.2.42.170036.30000026042712515153600019646",
+      "seriesNumber": "14",
+      "rows": 0,
+      "cols": 0,
+      "windowCenter": "",
+      "windowWidth": "",
+      "thickness": "1",
+      "files": [
+        {
+          "file": "STUDY001/889.dcm",
+          "instance": 140,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/890.dcm",
+          "instance": 141,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/891.dcm",
+          "instance": 142,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/892.dcm",
+          "instance": 143,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/893.dcm",
+          "instance": 144,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/894.dcm",
+          "instance": 145,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/895.dcm",
+          "instance": 146,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/896.dcm",
+          "instance": 147,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/897.dcm",
+          "instance": 148,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/898.dcm",
+          "instance": 149,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/899.dcm",
+          "instance": 150,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/900.dcm",
+          "instance": 151,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/901.dcm",
+          "instance": 152,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/902.dcm",
+          "instance": 153,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/903.dcm",
+          "instance": 154,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/904.dcm",
+          "instance": 155,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/905.dcm",
+          "instance": 156,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/906.dcm",
+          "instance": 157,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/907.dcm",
+          "instance": 158,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/908.dcm",
+          "instance": 159,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/909.dcm",
+          "instance": 160,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/910.dcm",
+          "instance": 161,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/911.dcm",
+          "instance": 162,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/912.dcm",
+          "instance": 163,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/913.dcm",
+          "instance": 164,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/914.dcm",
+          "instance": 165,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/915.dcm",
+          "instance": 166,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/916.dcm",
+          "instance": 167,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/917.dcm",
+          "instance": 168,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/918.dcm",
+          "instance": 169,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/919.dcm",
+          "instance": 170,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/920.dcm",
+          "instance": 171,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/921.dcm",
+          "instance": 172,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/922.dcm",
+          "instance": 173,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/923.dcm",
+          "instance": 174,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/924.dcm",
+          "instance": 175,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/925.dcm",
+          "instance": 176,
+          "z": 71.6997
+        },
+        {
+          "file": "STUDY001/750.dcm",
+          "instance": 1,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/751.dcm",
+          "instance": 2,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/752.dcm",
+          "instance": 3,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/753.dcm",
+          "instance": 4,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/754.dcm",
+          "instance": 5,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/755.dcm",
+          "instance": 6,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/756.dcm",
+          "instance": 7,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/757.dcm",
+          "instance": 8,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/758.dcm",
+          "instance": 9,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/759.dcm",
+          "instance": 10,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/760.dcm",
+          "instance": 11,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/761.dcm",
+          "instance": 12,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/762.dcm",
+          "instance": 13,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/763.dcm",
+          "instance": 14,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/764.dcm",
+          "instance": 15,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/765.dcm",
+          "instance": 16,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/766.dcm",
+          "instance": 17,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/767.dcm",
+          "instance": 18,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/768.dcm",
+          "instance": 19,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/769.dcm",
+          "instance": 20,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/770.dcm",
+          "instance": 21,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/771.dcm",
+          "instance": 22,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/772.dcm",
+          "instance": 23,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/773.dcm",
+          "instance": 24,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/774.dcm",
+          "instance": 25,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/775.dcm",
+          "instance": 26,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/776.dcm",
+          "instance": 27,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/777.dcm",
+          "instance": 28,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/778.dcm",
+          "instance": 29,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/779.dcm",
+          "instance": 30,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/780.dcm",
+          "instance": 31,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/781.dcm",
+          "instance": 32,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/782.dcm",
+          "instance": 33,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/783.dcm",
+          "instance": 34,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/784.dcm",
+          "instance": 35,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/785.dcm",
+          "instance": 36,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/786.dcm",
+          "instance": 37,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/787.dcm",
+          "instance": 38,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/788.dcm",
+          "instance": 39,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/789.dcm",
+          "instance": 40,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/790.dcm",
+          "instance": 41,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/791.dcm",
+          "instance": 42,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/792.dcm",
+          "instance": 43,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/793.dcm",
+          "instance": 44,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/794.dcm",
+          "instance": 45,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/795.dcm",
+          "instance": 46,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/796.dcm",
+          "instance": 47,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/797.dcm",
+          "instance": 48,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/798.dcm",
+          "instance": 49,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/799.dcm",
+          "instance": 50,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/800.dcm",
+          "instance": 51,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/801.dcm",
+          "instance": 52,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/802.dcm",
+          "instance": 53,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/803.dcm",
+          "instance": 54,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/804.dcm",
+          "instance": 55,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/805.dcm",
+          "instance": 56,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/806.dcm",
+          "instance": 57,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/807.dcm",
+          "instance": 58,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/808.dcm",
+          "instance": 59,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/809.dcm",
+          "instance": 60,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/810.dcm",
+          "instance": 61,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/811.dcm",
+          "instance": 62,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/812.dcm",
+          "instance": 63,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/813.dcm",
+          "instance": 64,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/814.dcm",
+          "instance": 65,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/815.dcm",
+          "instance": 66,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/816.dcm",
+          "instance": 67,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/817.dcm",
+          "instance": 68,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/818.dcm",
+          "instance": 69,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/819.dcm",
+          "instance": 70,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/820.dcm",
+          "instance": 71,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/821.dcm",
+          "instance": 72,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/822.dcm",
+          "instance": 73,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/823.dcm",
+          "instance": 74,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/824.dcm",
+          "instance": 75,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/825.dcm",
+          "instance": 76,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/826.dcm",
+          "instance": 77,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/827.dcm",
+          "instance": 78,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/828.dcm",
+          "instance": 79,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/829.dcm",
+          "instance": 80,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/830.dcm",
+          "instance": 81,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/831.dcm",
+          "instance": 82,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/832.dcm",
+          "instance": 83,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/833.dcm",
+          "instance": 84,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/834.dcm",
+          "instance": 85,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/835.dcm",
+          "instance": 86,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/836.dcm",
+          "instance": 87,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/837.dcm",
+          "instance": 88,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/838.dcm",
+          "instance": 89,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/839.dcm",
+          "instance": 90,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/840.dcm",
+          "instance": 91,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/841.dcm",
+          "instance": 92,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/842.dcm",
+          "instance": 93,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/843.dcm",
+          "instance": 94,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/844.dcm",
+          "instance": 95,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/845.dcm",
+          "instance": 96,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/846.dcm",
+          "instance": 97,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/847.dcm",
+          "instance": 98,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/848.dcm",
+          "instance": 99,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/849.dcm",
+          "instance": 100,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/850.dcm",
+          "instance": 101,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/851.dcm",
+          "instance": 102,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/852.dcm",
+          "instance": 103,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/853.dcm",
+          "instance": 104,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/854.dcm",
+          "instance": 105,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/855.dcm",
+          "instance": 106,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/856.dcm",
+          "instance": 107,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/857.dcm",
+          "instance": 108,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/858.dcm",
+          "instance": 109,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/859.dcm",
+          "instance": 110,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/860.dcm",
+          "instance": 111,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/861.dcm",
+          "instance": 112,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/862.dcm",
+          "instance": 113,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/863.dcm",
+          "instance": 114,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/864.dcm",
+          "instance": 115,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/865.dcm",
+          "instance": 116,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/866.dcm",
+          "instance": 117,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/867.dcm",
+          "instance": 118,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/868.dcm",
+          "instance": 119,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/869.dcm",
+          "instance": 120,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/870.dcm",
+          "instance": 121,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/871.dcm",
+          "instance": 122,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/872.dcm",
+          "instance": 123,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/873.dcm",
+          "instance": 124,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/874.dcm",
+          "instance": 125,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/875.dcm",
+          "instance": 126,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/876.dcm",
+          "instance": 127,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/877.dcm",
+          "instance": 128,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/878.dcm",
+          "instance": 129,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/879.dcm",
+          "instance": 130,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/880.dcm",
+          "instance": 131,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/881.dcm",
+          "instance": 132,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/882.dcm",
+          "instance": 133,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/883.dcm",
+          "instance": 134,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/884.dcm",
+          "instance": 135,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/885.dcm",
+          "instance": 136,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/886.dcm",
+          "instance": 137,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/887.dcm",
+          "instance": 138,
+          "z": 71.6998
+        },
+        {
+          "file": "STUDY001/888.dcm",
+          "instance": 139,
+          "z": 71.6998
+        }
+      ]
+    },
+    {
+      "description": "T1 SAG FS SPC FLAIR POST_MPR_COR",
+      "uid": "1.3.12.2.1107.5.2.42.170036.30000026042712515153600020002",
+      "seriesNumber": "15",
+      "rows": 279,
+      "cols": 279,
+      "windowCenter": "243",
+      "windowWidth": "538.7",
+      "thickness": "1",
+      "files": [
+        {
+          "file": "STUDY001/926.dcm",
+          "instance": 1,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/927.dcm",
+          "instance": 2,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/928.dcm",
+          "instance": 3,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/929.dcm",
+          "instance": 4,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/930.dcm",
+          "instance": 5,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/931.dcm",
+          "instance": 6,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/932.dcm",
+          "instance": 7,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/933.dcm",
+          "instance": 8,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/934.dcm",
+          "instance": 9,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/935.dcm",
+          "instance": 10,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/936.dcm",
+          "instance": 11,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/937.dcm",
+          "instance": 12,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/938.dcm",
+          "instance": 13,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/939.dcm",
+          "instance": 14,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/940.dcm",
+          "instance": 15,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/941.dcm",
+          "instance": 16,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/942.dcm",
+          "instance": 17,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/943.dcm",
+          "instance": 18,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/944.dcm",
+          "instance": 19,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/945.dcm",
+          "instance": 20,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/946.dcm",
+          "instance": 21,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/947.dcm",
+          "instance": 22,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/948.dcm",
+          "instance": 23,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/949.dcm",
+          "instance": 24,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/950.dcm",
+          "instance": 25,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/951.dcm",
+          "instance": 26,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/952.dcm",
+          "instance": 27,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/953.dcm",
+          "instance": 28,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/954.dcm",
+          "instance": 29,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/955.dcm",
+          "instance": 30,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/956.dcm",
+          "instance": 31,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/957.dcm",
+          "instance": 32,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/958.dcm",
+          "instance": 33,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/959.dcm",
+          "instance": 34,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/960.dcm",
+          "instance": 35,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/961.dcm",
+          "instance": 36,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/962.dcm",
+          "instance": 37,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/963.dcm",
+          "instance": 38,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/964.dcm",
+          "instance": 39,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/965.dcm",
+          "instance": 40,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/966.dcm",
+          "instance": 41,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/967.dcm",
+          "instance": 42,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/968.dcm",
+          "instance": 43,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/969.dcm",
+          "instance": 44,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/970.dcm",
+          "instance": 45,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/971.dcm",
+          "instance": 46,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/972.dcm",
+          "instance": 47,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/973.dcm",
+          "instance": 48,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/974.dcm",
+          "instance": 49,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/975.dcm",
+          "instance": 50,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/976.dcm",
+          "instance": 51,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/977.dcm",
+          "instance": 52,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/978.dcm",
+          "instance": 53,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/979.dcm",
+          "instance": 54,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/980.dcm",
+          "instance": 55,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/981.dcm",
+          "instance": 56,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/982.dcm",
+          "instance": 57,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/983.dcm",
+          "instance": 58,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/984.dcm",
+          "instance": 59,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/985.dcm",
+          "instance": 60,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/986.dcm",
+          "instance": 61,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/987.dcm",
+          "instance": 62,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/988.dcm",
+          "instance": 63,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/989.dcm",
+          "instance": 64,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/990.dcm",
+          "instance": 65,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/991.dcm",
+          "instance": 66,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/992.dcm",
+          "instance": 67,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/993.dcm",
+          "instance": 68,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/994.dcm",
+          "instance": 69,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/995.dcm",
+          "instance": 70,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/996.dcm",
+          "instance": 71,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/997.dcm",
+          "instance": 72,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/998.dcm",
+          "instance": 73,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/999.dcm",
+          "instance": 74,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1000.dcm",
+          "instance": 75,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1001.dcm",
+          "instance": 76,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1002.dcm",
+          "instance": 77,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1003.dcm",
+          "instance": 78,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1004.dcm",
+          "instance": 79,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1005.dcm",
+          "instance": 80,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1006.dcm",
+          "instance": 81,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1007.dcm",
+          "instance": 82,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1008.dcm",
+          "instance": 83,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1009.dcm",
+          "instance": 84,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1010.dcm",
+          "instance": 85,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1011.dcm",
+          "instance": 86,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1012.dcm",
+          "instance": 87,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1013.dcm",
+          "instance": 88,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1014.dcm",
+          "instance": 89,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1015.dcm",
+          "instance": 90,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1016.dcm",
+          "instance": 91,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1017.dcm",
+          "instance": 92,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1018.dcm",
+          "instance": 93,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1019.dcm",
+          "instance": 94,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1020.dcm",
+          "instance": 95,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1021.dcm",
+          "instance": 96,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1022.dcm",
+          "instance": 97,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1023.dcm",
+          "instance": 98,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1024.dcm",
+          "instance": 99,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1025.dcm",
+          "instance": 100,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1026.dcm",
+          "instance": 101,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1027.dcm",
+          "instance": 102,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1028.dcm",
+          "instance": 103,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1029.dcm",
+          "instance": 104,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1030.dcm",
+          "instance": 105,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1031.dcm",
+          "instance": 106,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1032.dcm",
+          "instance": 107,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1033.dcm",
+          "instance": 108,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1034.dcm",
+          "instance": 109,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1035.dcm",
+          "instance": 110,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1036.dcm",
+          "instance": 111,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1037.dcm",
+          "instance": 112,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1038.dcm",
+          "instance": 113,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1039.dcm",
+          "instance": 114,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1040.dcm",
+          "instance": 115,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1041.dcm",
+          "instance": 116,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1042.dcm",
+          "instance": 117,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1043.dcm",
+          "instance": 118,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1044.dcm",
+          "instance": 119,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1045.dcm",
+          "instance": 120,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1046.dcm",
+          "instance": 121,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1047.dcm",
+          "instance": 122,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1048.dcm",
+          "instance": 123,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1049.dcm",
+          "instance": 124,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1050.dcm",
+          "instance": 125,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1051.dcm",
+          "instance": 126,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1052.dcm",
+          "instance": 127,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1053.dcm",
+          "instance": 128,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1054.dcm",
+          "instance": 129,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1055.dcm",
+          "instance": 130,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1056.dcm",
+          "instance": 131,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1057.dcm",
+          "instance": 132,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1058.dcm",
+          "instance": 133,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1059.dcm",
+          "instance": 134,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1060.dcm",
+          "instance": 135,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1061.dcm",
+          "instance": 136,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1062.dcm",
+          "instance": 137,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1063.dcm",
+          "instance": 138,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1064.dcm",
+          "instance": 139,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1065.dcm",
+          "instance": 140,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1066.dcm",
+          "instance": 141,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1067.dcm",
+          "instance": 142,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1068.dcm",
+          "instance": 143,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1069.dcm",
+          "instance": 144,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1070.dcm",
+          "instance": 145,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1071.dcm",
+          "instance": 146,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1072.dcm",
+          "instance": 147,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1073.dcm",
+          "instance": 148,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1074.dcm",
+          "instance": 149,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1075.dcm",
+          "instance": 150,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1076.dcm",
+          "instance": 151,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1077.dcm",
+          "instance": 152,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1078.dcm",
+          "instance": 153,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1079.dcm",
+          "instance": 154,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1080.dcm",
+          "instance": 155,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1081.dcm",
+          "instance": 156,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1082.dcm",
+          "instance": 157,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1083.dcm",
+          "instance": 158,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1084.dcm",
+          "instance": 159,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1085.dcm",
+          "instance": 160,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1086.dcm",
+          "instance": 161,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1087.dcm",
+          "instance": 162,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1088.dcm",
+          "instance": 163,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1089.dcm",
+          "instance": 164,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1090.dcm",
+          "instance": 165,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1091.dcm",
+          "instance": 166,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1092.dcm",
+          "instance": 167,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1093.dcm",
+          "instance": 168,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1094.dcm",
+          "instance": 169,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1095.dcm",
+          "instance": 170,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1096.dcm",
+          "instance": 171,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1097.dcm",
+          "instance": 172,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1098.dcm",
+          "instance": 173,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1099.dcm",
+          "instance": 174,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1100.dcm",
+          "instance": 175,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1101.dcm",
+          "instance": 176,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1102.dcm",
+          "instance": 177,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1103.dcm",
+          "instance": 178,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1104.dcm",
+          "instance": 179,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1105.dcm",
+          "instance": 180,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1106.dcm",
+          "instance": 181,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1107.dcm",
+          "instance": 182,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1108.dcm",
+          "instance": 183,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1109.dcm",
+          "instance": 184,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1110.dcm",
+          "instance": 185,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1111.dcm",
+          "instance": 186,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1112.dcm",
+          "instance": 187,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1113.dcm",
+          "instance": 188,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1114.dcm",
+          "instance": 189,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1115.dcm",
+          "instance": 190,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1116.dcm",
+          "instance": 191,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1117.dcm",
+          "instance": 192,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1118.dcm",
+          "instance": 193,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1119.dcm",
+          "instance": 194,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1120.dcm",
+          "instance": 195,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1121.dcm",
+          "instance": 196,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1122.dcm",
+          "instance": 197,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1123.dcm",
+          "instance": 198,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1124.dcm",
+          "instance": 199,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1125.dcm",
+          "instance": 200,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1126.dcm",
+          "instance": 201,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1127.dcm",
+          "instance": 202,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1128.dcm",
+          "instance": 203,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1129.dcm",
+          "instance": 204,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1130.dcm",
+          "instance": 205,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1131.dcm",
+          "instance": 206,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1132.dcm",
+          "instance": 207,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1133.dcm",
+          "instance": 208,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1134.dcm",
+          "instance": 209,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1135.dcm",
+          "instance": 210,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1136.dcm",
+          "instance": 211,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1137.dcm",
+          "instance": 212,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1138.dcm",
+          "instance": 213,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1139.dcm",
+          "instance": 214,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1140.dcm",
+          "instance": 215,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1141.dcm",
+          "instance": 216,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1142.dcm",
+          "instance": 217,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1143.dcm",
+          "instance": 218,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1144.dcm",
+          "instance": 219,
+          "z": 86.044769
+        },
+        {
+          "file": "STUDY001/1145.dcm",
+          "instance": 220,
+          "z": 86.044769
+        }
+      ]
+    },
+    {
+      "description": "T1 SAG FS SPC FLAIR POST_MPR_AX",
+      "uid": "1.3.12.2.1107.5.2.42.170036.30000026042712515153600020446",
+      "seriesNumber": "16",
+      "rows": 279,
+      "cols": 279,
+      "windowCenter": "243",
+      "windowWidth": "538.7",
+      "thickness": "1",
+      "files": [
+        {
+          "file": "STUDY001/1366.dcm",
+          "instance": 221,
+          "z": -153.68694
+        },
+        {
+          "file": "STUDY001/1365.dcm",
+          "instance": 220,
+          "z": -152.68694
+        },
+        {
+          "file": "STUDY001/1364.dcm",
+          "instance": 219,
+          "z": -151.68694
+        },
+        {
+          "file": "STUDY001/1363.dcm",
+          "instance": 218,
+          "z": -150.68694
+        },
+        {
+          "file": "STUDY001/1362.dcm",
+          "instance": 217,
+          "z": -149.68694
+        },
+        {
+          "file": "STUDY001/1361.dcm",
+          "instance": 216,
+          "z": -148.68694
+        },
+        {
+          "file": "STUDY001/1360.dcm",
+          "instance": 215,
+          "z": -147.68694
+        },
+        {
+          "file": "STUDY001/1359.dcm",
+          "instance": 214,
+          "z": -146.68694
+        },
+        {
+          "file": "STUDY001/1358.dcm",
+          "instance": 213,
+          "z": -145.68694
+        },
+        {
+          "file": "STUDY001/1357.dcm",
+          "instance": 212,
+          "z": -144.68694
+        },
+        {
+          "file": "STUDY001/1356.dcm",
+          "instance": 211,
+          "z": -143.68694
+        },
+        {
+          "file": "STUDY001/1355.dcm",
+          "instance": 210,
+          "z": -142.68694
+        },
+        {
+          "file": "STUDY001/1354.dcm",
+          "instance": 209,
+          "z": -141.68694
+        },
+        {
+          "file": "STUDY001/1353.dcm",
+          "instance": 208,
+          "z": -140.68694
+        },
+        {
+          "file": "STUDY001/1352.dcm",
+          "instance": 207,
+          "z": -139.68694
+        },
+        {
+          "file": "STUDY001/1351.dcm",
+          "instance": 206,
+          "z": -138.68694
+        },
+        {
+          "file": "STUDY001/1350.dcm",
+          "instance": 205,
+          "z": -137.68694
+        },
+        {
+          "file": "STUDY001/1349.dcm",
+          "instance": 204,
+          "z": -136.68694
+        },
+        {
+          "file": "STUDY001/1348.dcm",
+          "instance": 203,
+          "z": -135.68694
+        },
+        {
+          "file": "STUDY001/1347.dcm",
+          "instance": 202,
+          "z": -134.68694
+        },
+        {
+          "file": "STUDY001/1346.dcm",
+          "instance": 201,
+          "z": -133.68694
+        },
+        {
+          "file": "STUDY001/1345.dcm",
+          "instance": 200,
+          "z": -132.68694
+        },
+        {
+          "file": "STUDY001/1344.dcm",
+          "instance": 199,
+          "z": -131.68694
+        },
+        {
+          "file": "STUDY001/1343.dcm",
+          "instance": 198,
+          "z": -130.68694
+        },
+        {
+          "file": "STUDY001/1342.dcm",
+          "instance": 197,
+          "z": -129.68694
+        },
+        {
+          "file": "STUDY001/1341.dcm",
+          "instance": 196,
+          "z": -128.68694
+        },
+        {
+          "file": "STUDY001/1340.dcm",
+          "instance": 195,
+          "z": -127.68693
+        },
+        {
+          "file": "STUDY001/1339.dcm",
+          "instance": 194,
+          "z": -126.68693
+        },
+        {
+          "file": "STUDY001/1338.dcm",
+          "instance": 193,
+          "z": -125.68693
+        },
+        {
+          "file": "STUDY001/1337.dcm",
+          "instance": 192,
+          "z": -124.68693
+        },
+        {
+          "file": "STUDY001/1336.dcm",
+          "instance": 191,
+          "z": -123.68693
+        },
+        {
+          "file": "STUDY001/1335.dcm",
+          "instance": 190,
+          "z": -122.68693
+        },
+        {
+          "file": "STUDY001/1334.dcm",
+          "instance": 189,
+          "z": -121.68693
+        },
+        {
+          "file": "STUDY001/1333.dcm",
+          "instance": 188,
+          "z": -120.68693
+        },
+        {
+          "file": "STUDY001/1332.dcm",
+          "instance": 187,
+          "z": -119.68693
+        },
+        {
+          "file": "STUDY001/1331.dcm",
+          "instance": 186,
+          "z": -118.68693
+        },
+        {
+          "file": "STUDY001/1330.dcm",
+          "instance": 185,
+          "z": -117.68693
+        },
+        {
+          "file": "STUDY001/1329.dcm",
+          "instance": 184,
+          "z": -116.68693
+        },
+        {
+          "file": "STUDY001/1328.dcm",
+          "instance": 183,
+          "z": -115.68693
+        },
+        {
+          "file": "STUDY001/1327.dcm",
+          "instance": 182,
+          "z": -114.68693
+        },
+        {
+          "file": "STUDY001/1326.dcm",
+          "instance": 181,
+          "z": -113.68693
+        },
+        {
+          "file": "STUDY001/1325.dcm",
+          "instance": 180,
+          "z": -112.68693
+        },
+        {
+          "file": "STUDY001/1324.dcm",
+          "instance": 179,
+          "z": -111.68693
+        },
+        {
+          "file": "STUDY001/1323.dcm",
+          "instance": 178,
+          "z": -110.68693
+        },
+        {
+          "file": "STUDY001/1322.dcm",
+          "instance": 177,
+          "z": -109.68693
+        },
+        {
+          "file": "STUDY001/1321.dcm",
+          "instance": 176,
+          "z": -108.68693
+        },
+        {
+          "file": "STUDY001/1320.dcm",
+          "instance": 175,
+          "z": -107.68693
+        },
+        {
+          "file": "STUDY001/1319.dcm",
+          "instance": 174,
+          "z": -106.68693
+        },
+        {
+          "file": "STUDY001/1318.dcm",
+          "instance": 173,
+          "z": -105.68693
+        },
+        {
+          "file": "STUDY001/1317.dcm",
+          "instance": 172,
+          "z": -104.68693
+        },
+        {
+          "file": "STUDY001/1316.dcm",
+          "instance": 171,
+          "z": -103.68693
+        },
+        {
+          "file": "STUDY001/1315.dcm",
+          "instance": 170,
+          "z": -102.68693
+        },
+        {
+          "file": "STUDY001/1314.dcm",
+          "instance": 169,
+          "z": -101.68693
+        },
+        {
+          "file": "STUDY001/1313.dcm",
+          "instance": 168,
+          "z": -100.68693
+        },
+        {
+          "file": "STUDY001/1312.dcm",
+          "instance": 167,
+          "z": -99.686928
+        },
+        {
+          "file": "STUDY001/1311.dcm",
+          "instance": 166,
+          "z": -98.686928
+        },
+        {
+          "file": "STUDY001/1310.dcm",
+          "instance": 165,
+          "z": -97.686928
+        },
+        {
+          "file": "STUDY001/1309.dcm",
+          "instance": 164,
+          "z": -96.686928
+        },
+        {
+          "file": "STUDY001/1308.dcm",
+          "instance": 163,
+          "z": -95.686928
+        },
+        {
+          "file": "STUDY001/1307.dcm",
+          "instance": 162,
+          "z": -94.686928
+        },
+        {
+          "file": "STUDY001/1306.dcm",
+          "instance": 161,
+          "z": -93.686928
+        },
+        {
+          "file": "STUDY001/1305.dcm",
+          "instance": 160,
+          "z": -92.686928
+        },
+        {
+          "file": "STUDY001/1304.dcm",
+          "instance": 159,
+          "z": -91.686928
+        },
+        {
+          "file": "STUDY001/1303.dcm",
+          "instance": 158,
+          "z": -90.686928
+        },
+        {
+          "file": "STUDY001/1302.dcm",
+          "instance": 157,
+          "z": -89.686928
+        },
+        {
+          "file": "STUDY001/1301.dcm",
+          "instance": 156,
+          "z": -88.686928
+        },
+        {
+          "file": "STUDY001/1300.dcm",
+          "instance": 155,
+          "z": -87.686928
+        },
+        {
+          "file": "STUDY001/1299.dcm",
+          "instance": 154,
+          "z": -86.686928
+        },
+        {
+          "file": "STUDY001/1298.dcm",
+          "instance": 153,
+          "z": -85.686928
+        },
+        {
+          "file": "STUDY001/1297.dcm",
+          "instance": 152,
+          "z": -84.686928
+        },
+        {
+          "file": "STUDY001/1296.dcm",
+          "instance": 151,
+          "z": -83.686928
+        },
+        {
+          "file": "STUDY001/1295.dcm",
+          "instance": 150,
+          "z": -82.686928
+        },
+        {
+          "file": "STUDY001/1294.dcm",
+          "instance": 149,
+          "z": -81.686928
+        },
+        {
+          "file": "STUDY001/1293.dcm",
+          "instance": 148,
+          "z": -80.686928
+        },
+        {
+          "file": "STUDY001/1292.dcm",
+          "instance": 147,
+          "z": -79.686928
+        },
+        {
+          "file": "STUDY001/1291.dcm",
+          "instance": 146,
+          "z": -78.686928
+        },
+        {
+          "file": "STUDY001/1290.dcm",
+          "instance": 145,
+          "z": -77.686928
+        },
+        {
+          "file": "STUDY001/1289.dcm",
+          "instance": 144,
+          "z": -76.686928
+        },
+        {
+          "file": "STUDY001/1288.dcm",
+          "instance": 143,
+          "z": -75.686928
+        },
+        {
+          "file": "STUDY001/1287.dcm",
+          "instance": 142,
+          "z": -74.686928
+        },
+        {
+          "file": "STUDY001/1286.dcm",
+          "instance": 141,
+          "z": -73.686928
+        },
+        {
+          "file": "STUDY001/1285.dcm",
+          "instance": 140,
+          "z": -72.686928
+        },
+        {
+          "file": "STUDY001/1284.dcm",
+          "instance": 139,
+          "z": -71.686928
+        },
+        {
+          "file": "STUDY001/1283.dcm",
+          "instance": 138,
+          "z": -70.686928
+        },
+        {
+          "file": "STUDY001/1282.dcm",
+          "instance": 137,
+          "z": -69.686928
+        },
+        {
+          "file": "STUDY001/1281.dcm",
+          "instance": 136,
+          "z": -68.686928
+        },
+        {
+          "file": "STUDY001/1280.dcm",
+          "instance": 135,
+          "z": -67.686928
+        },
+        {
+          "file": "STUDY001/1279.dcm",
+          "instance": 134,
+          "z": -66.686928
+        },
+        {
+          "file": "STUDY001/1278.dcm",
+          "instance": 133,
+          "z": -65.686928
+        },
+        {
+          "file": "STUDY001/1277.dcm",
+          "instance": 132,
+          "z": -64.686928
+        },
+        {
+          "file": "STUDY001/1276.dcm",
+          "instance": 131,
+          "z": -63.686928
+        },
+        {
+          "file": "STUDY001/1275.dcm",
+          "instance": 130,
+          "z": -62.686928
+        },
+        {
+          "file": "STUDY001/1274.dcm",
+          "instance": 129,
+          "z": -61.686928
+        },
+        {
+          "file": "STUDY001/1273.dcm",
+          "instance": 128,
+          "z": -60.686928
+        },
+        {
+          "file": "STUDY001/1272.dcm",
+          "instance": 127,
+          "z": -59.686928
+        },
+        {
+          "file": "STUDY001/1271.dcm",
+          "instance": 126,
+          "z": -58.686928
+        },
+        {
+          "file": "STUDY001/1270.dcm",
+          "instance": 125,
+          "z": -57.686928
+        },
+        {
+          "file": "STUDY001/1269.dcm",
+          "instance": 124,
+          "z": -56.686928
+        },
+        {
+          "file": "STUDY001/1268.dcm",
+          "instance": 123,
+          "z": -55.686928
+        },
+        {
+          "file": "STUDY001/1267.dcm",
+          "instance": 122,
+          "z": -54.686928
+        },
+        {
+          "file": "STUDY001/1266.dcm",
+          "instance": 121,
+          "z": -53.686928
+        },
+        {
+          "file": "STUDY001/1265.dcm",
+          "instance": 120,
+          "z": -52.686928
+        },
+        {
+          "file": "STUDY001/1264.dcm",
+          "instance": 119,
+          "z": -51.686928
+        },
+        {
+          "file": "STUDY001/1263.dcm",
+          "instance": 118,
+          "z": -50.686928
+        },
+        {
+          "file": "STUDY001/1262.dcm",
+          "instance": 117,
+          "z": -49.686928
+        },
+        {
+          "file": "STUDY001/1261.dcm",
+          "instance": 116,
+          "z": -48.686928
+        },
+        {
+          "file": "STUDY001/1260.dcm",
+          "instance": 115,
+          "z": -47.686928
+        },
+        {
+          "file": "STUDY001/1259.dcm",
+          "instance": 114,
+          "z": -46.686928
+        },
+        {
+          "file": "STUDY001/1258.dcm",
+          "instance": 113,
+          "z": -45.686928
+        },
+        {
+          "file": "STUDY001/1257.dcm",
+          "instance": 112,
+          "z": -44.686928
+        },
+        {
+          "file": "STUDY001/1256.dcm",
+          "instance": 111,
+          "z": -43.686928
+        },
+        {
+          "file": "STUDY001/1255.dcm",
+          "instance": 110,
+          "z": -42.686928
+        },
+        {
+          "file": "STUDY001/1254.dcm",
+          "instance": 109,
+          "z": -41.686928
+        },
+        {
+          "file": "STUDY001/1253.dcm",
+          "instance": 108,
+          "z": -40.686928
+        },
+        {
+          "file": "STUDY001/1252.dcm",
+          "instance": 107,
+          "z": -39.686928
+        },
+        {
+          "file": "STUDY001/1251.dcm",
+          "instance": 106,
+          "z": -38.686928
+        },
+        {
+          "file": "STUDY001/1250.dcm",
+          "instance": 105,
+          "z": -37.686928
+        },
+        {
+          "file": "STUDY001/1249.dcm",
+          "instance": 104,
+          "z": -36.686928
+        },
+        {
+          "file": "STUDY001/1248.dcm",
+          "instance": 103,
+          "z": -35.686928
+        },
+        {
+          "file": "STUDY001/1247.dcm",
+          "instance": 102,
+          "z": -34.686928
+        },
+        {
+          "file": "STUDY001/1246.dcm",
+          "instance": 101,
+          "z": -33.686928
+        },
+        {
+          "file": "STUDY001/1245.dcm",
+          "instance": 100,
+          "z": -32.686928
+        },
+        {
+          "file": "STUDY001/1244.dcm",
+          "instance": 99,
+          "z": -31.68693
+        },
+        {
+          "file": "STUDY001/1243.dcm",
+          "instance": 98,
+          "z": -30.68693
+        },
+        {
+          "file": "STUDY001/1242.dcm",
+          "instance": 97,
+          "z": -29.68693
+        },
+        {
+          "file": "STUDY001/1241.dcm",
+          "instance": 96,
+          "z": -28.68693
+        },
+        {
+          "file": "STUDY001/1240.dcm",
+          "instance": 95,
+          "z": -27.68693
+        },
+        {
+          "file": "STUDY001/1239.dcm",
+          "instance": 94,
+          "z": -26.68693
+        },
+        {
+          "file": "STUDY001/1238.dcm",
+          "instance": 93,
+          "z": -25.68693
+        },
+        {
+          "file": "STUDY001/1237.dcm",
+          "instance": 92,
+          "z": -24.68693
+        },
+        {
+          "file": "STUDY001/1236.dcm",
+          "instance": 91,
+          "z": -23.68693
+        },
+        {
+          "file": "STUDY001/1235.dcm",
+          "instance": 90,
+          "z": -22.68693
+        },
+        {
+          "file": "STUDY001/1234.dcm",
+          "instance": 89,
+          "z": -21.68693
+        },
+        {
+          "file": "STUDY001/1233.dcm",
+          "instance": 88,
+          "z": -20.68693
+        },
+        {
+          "file": "STUDY001/1232.dcm",
+          "instance": 87,
+          "z": -19.68693
+        },
+        {
+          "file": "STUDY001/1231.dcm",
+          "instance": 86,
+          "z": -18.68693
+        },
+        {
+          "file": "STUDY001/1230.dcm",
+          "instance": 85,
+          "z": -17.68693
+        },
+        {
+          "file": "STUDY001/1229.dcm",
+          "instance": 84,
+          "z": -16.68693
+        },
+        {
+          "file": "STUDY001/1228.dcm",
+          "instance": 83,
+          "z": -15.686929
+        },
+        {
+          "file": "STUDY001/1227.dcm",
+          "instance": 82,
+          "z": -14.686929
+        },
+        {
+          "file": "STUDY001/1226.dcm",
+          "instance": 81,
+          "z": -13.686929
+        },
+        {
+          "file": "STUDY001/1225.dcm",
+          "instance": 80,
+          "z": -12.686929
+        },
+        {
+          "file": "STUDY001/1224.dcm",
+          "instance": 79,
+          "z": -11.686929
+        },
+        {
+          "file": "STUDY001/1223.dcm",
+          "instance": 78,
+          "z": -10.686929
+        },
+        {
+          "file": "STUDY001/1222.dcm",
+          "instance": 77,
+          "z": -9.6869287
+        },
+        {
+          "file": "STUDY001/1221.dcm",
+          "instance": 76,
+          "z": -8.6869287
+        },
+        {
+          "file": "STUDY001/1220.dcm",
+          "instance": 75,
+          "z": -7.6869287
+        },
+        {
+          "file": "STUDY001/1219.dcm",
+          "instance": 74,
+          "z": -6.6869287
+        },
+        {
+          "file": "STUDY001/1218.dcm",
+          "instance": 73,
+          "z": -5.6869287
+        },
+        {
+          "file": "STUDY001/1217.dcm",
+          "instance": 72,
+          "z": -4.6869287
+        },
+        {
+          "file": "STUDY001/1216.dcm",
+          "instance": 71,
+          "z": -3.6869287
+        },
+        {
+          "file": "STUDY001/1215.dcm",
+          "instance": 70,
+          "z": -2.6869287
+        },
+        {
+          "file": "STUDY001/1214.dcm",
+          "instance": 69,
+          "z": -1.6869287
+        },
+        {
+          "file": "STUDY001/1213.dcm",
+          "instance": 68,
+          "z": -0.68692875
+        },
+        {
+          "file": "STUDY001/1212.dcm",
+          "instance": 67,
+          "z": 0.31307125
+        },
+        {
+          "file": "STUDY001/1211.dcm",
+          "instance": 66,
+          "z": 1.3130713
+        },
+        {
+          "file": "STUDY001/1210.dcm",
+          "instance": 65,
+          "z": 2.3130713
+        },
+        {
+          "file": "STUDY001/1209.dcm",
+          "instance": 64,
+          "z": 3.3130713
+        },
+        {
+          "file": "STUDY001/1208.dcm",
+          "instance": 63,
+          "z": 4.3130713
+        },
+        {
+          "file": "STUDY001/1207.dcm",
+          "instance": 62,
+          "z": 5.3130713
+        },
+        {
+          "file": "STUDY001/1206.dcm",
+          "instance": 61,
+          "z": 6.3130713
+        },
+        {
+          "file": "STUDY001/1205.dcm",
+          "instance": 60,
+          "z": 7.3130713
+        },
+        {
+          "file": "STUDY001/1204.dcm",
+          "instance": 59,
+          "z": 8.3130713
+        },
+        {
+          "file": "STUDY001/1203.dcm",
+          "instance": 58,
+          "z": 9.3130713
+        },
+        {
+          "file": "STUDY001/1202.dcm",
+          "instance": 57,
+          "z": 10.313071
+        },
+        {
+          "file": "STUDY001/1201.dcm",
+          "instance": 56,
+          "z": 11.313071
+        },
+        {
+          "file": "STUDY001/1200.dcm",
+          "instance": 55,
+          "z": 12.313071
+        },
+        {
+          "file": "STUDY001/1199.dcm",
+          "instance": 54,
+          "z": 13.313071
+        },
+        {
+          "file": "STUDY001/1198.dcm",
+          "instance": 53,
+          "z": 14.313071
+        },
+        {
+          "file": "STUDY001/1197.dcm",
+          "instance": 52,
+          "z": 15.313071
+        },
+        {
+          "file": "STUDY001/1196.dcm",
+          "instance": 51,
+          "z": 16.31307
+        },
+        {
+          "file": "STUDY001/1195.dcm",
+          "instance": 50,
+          "z": 17.31307
+        },
+        {
+          "file": "STUDY001/1194.dcm",
+          "instance": 49,
+          "z": 18.31307
+        },
+        {
+          "file": "STUDY001/1193.dcm",
+          "instance": 48,
+          "z": 19.31307
+        },
+        {
+          "file": "STUDY001/1192.dcm",
+          "instance": 47,
+          "z": 20.31307
+        },
+        {
+          "file": "STUDY001/1191.dcm",
+          "instance": 46,
+          "z": 21.31307
+        },
+        {
+          "file": "STUDY001/1190.dcm",
+          "instance": 45,
+          "z": 22.31307
+        },
+        {
+          "file": "STUDY001/1189.dcm",
+          "instance": 44,
+          "z": 23.31307
+        },
+        {
+          "file": "STUDY001/1188.dcm",
+          "instance": 43,
+          "z": 24.31307
+        },
+        {
+          "file": "STUDY001/1187.dcm",
+          "instance": 42,
+          "z": 25.31307
+        },
+        {
+          "file": "STUDY001/1186.dcm",
+          "instance": 41,
+          "z": 26.31307
+        },
+        {
+          "file": "STUDY001/1185.dcm",
+          "instance": 40,
+          "z": 27.31307
+        },
+        {
+          "file": "STUDY001/1184.dcm",
+          "instance": 39,
+          "z": 28.31307
+        },
+        {
+          "file": "STUDY001/1183.dcm",
+          "instance": 38,
+          "z": 29.31307
+        },
+        {
+          "file": "STUDY001/1182.dcm",
+          "instance": 37,
+          "z": 30.31307
+        },
+        {
+          "file": "STUDY001/1181.dcm",
+          "instance": 36,
+          "z": 31.31307
+        },
+        {
+          "file": "STUDY001/1180.dcm",
+          "instance": 35,
+          "z": 32.313072
+        },
+        {
+          "file": "STUDY001/1179.dcm",
+          "instance": 34,
+          "z": 33.313072
+        },
+        {
+          "file": "STUDY001/1178.dcm",
+          "instance": 33,
+          "z": 34.313072
+        },
+        {
+          "file": "STUDY001/1177.dcm",
+          "instance": 32,
+          "z": 35.313072
+        },
+        {
+          "file": "STUDY001/1176.dcm",
+          "instance": 31,
+          "z": 36.313072
+        },
+        {
+          "file": "STUDY001/1175.dcm",
+          "instance": 30,
+          "z": 37.313072
+        },
+        {
+          "file": "STUDY001/1174.dcm",
+          "instance": 29,
+          "z": 38.313072
+        },
+        {
+          "file": "STUDY001/1173.dcm",
+          "instance": 28,
+          "z": 39.313072
+        },
+        {
+          "file": "STUDY001/1172.dcm",
+          "instance": 27,
+          "z": 40.313072
+        },
+        {
+          "file": "STUDY001/1171.dcm",
+          "instance": 26,
+          "z": 41.313072
+        },
+        {
+          "file": "STUDY001/1170.dcm",
+          "instance": 25,
+          "z": 42.313072
+        },
+        {
+          "file": "STUDY001/1169.dcm",
+          "instance": 24,
+          "z": 43.313072
+        },
+        {
+          "file": "STUDY001/1168.dcm",
+          "instance": 23,
+          "z": 44.313072
+        },
+        {
+          "file": "STUDY001/1167.dcm",
+          "instance": 22,
+          "z": 45.313072
+        },
+        {
+          "file": "STUDY001/1166.dcm",
+          "instance": 21,
+          "z": 46.313072
+        },
+        {
+          "file": "STUDY001/1165.dcm",
+          "instance": 20,
+          "z": 47.313072
+        },
+        {
+          "file": "STUDY001/1164.dcm",
+          "instance": 19,
+          "z": 48.313072
+        },
+        {
+          "file": "STUDY001/1163.dcm",
+          "instance": 18,
+          "z": 49.313072
+        },
+        {
+          "file": "STUDY001/1162.dcm",
+          "instance": 17,
+          "z": 50.313072
+        },
+        {
+          "file": "STUDY001/1161.dcm",
+          "instance": 16,
+          "z": 51.313072
+        },
+        {
+          "file": "STUDY001/1160.dcm",
+          "instance": 15,
+          "z": 52.313072
+        },
+        {
+          "file": "STUDY001/1159.dcm",
+          "instance": 14,
+          "z": 53.313072
+        },
+        {
+          "file": "STUDY001/1158.dcm",
+          "instance": 13,
+          "z": 54.313072
+        },
+        {
+          "file": "STUDY001/1157.dcm",
+          "instance": 12,
+          "z": 55.313072
+        },
+        {
+          "file": "STUDY001/1156.dcm",
+          "instance": 11,
+          "z": 56.313072
+        },
+        {
+          "file": "STUDY001/1155.dcm",
+          "instance": 10,
+          "z": 57.313072
+        },
+        {
+          "file": "STUDY001/1154.dcm",
+          "instance": 9,
+          "z": 58.313072
+        },
+        {
+          "file": "STUDY001/1153.dcm",
+          "instance": 8,
+          "z": 59.313072
+        },
+        {
+          "file": "STUDY001/1152.dcm",
+          "instance": 7,
+          "z": 60.313072
+        },
+        {
+          "file": "STUDY001/1151.dcm",
+          "instance": 6,
+          "z": 61.313072
+        },
+        {
+          "file": "STUDY001/1150.dcm",
+          "instance": 5,
+          "z": 62.313072
+        },
+        {
+          "file": "STUDY001/1149.dcm",
+          "instance": 4,
+          "z": 63.313072
+        },
+        {
+          "file": "STUDY001/1148.dcm",
+          "instance": 3,
+          "z": 64.313072
+        },
+        {
+          "file": "STUDY001/1147.dcm",
+          "instance": 2,
+          "z": 65.313072
+        },
+        {
+          "file": "STUDY001/1146.dcm",
+          "instance": 1,
+          "z": 66.313072
+        }
+      ]
+    },
+    {
+      "description": "AX T1 FS POST SPACE (TRIG)",
+      "uid": "1.3.12.2.1107.5.2.42.170036.30000026042712515153600020892",
+      "seriesNumber": "17",
+      "rows": 0,
+      "cols": 0,
+      "windowCenter": "",
+      "windowWidth": "",
+      "thickness": "0.6",
+      "files": [
+        {
+          "file": "STUDY001/1367.dcm",
+          "instance": 1,
+          "z": -107.541
+        },
+        {
+          "file": "STUDY001/1368.dcm",
+          "instance": 2,
+          "z": -106.941
+        },
+        {
+          "file": "STUDY001/1369.dcm",
+          "instance": 3,
+          "z": -106.341
+        },
+        {
+          "file": "STUDY001/1370.dcm",
+          "instance": 4,
+          "z": -105.741
+        },
+        {
+          "file": "STUDY001/1371.dcm",
+          "instance": 5,
+          "z": -105.141
+        },
+        {
+          "file": "STUDY001/1372.dcm",
+          "instance": 6,
+          "z": -104.541
+        },
+        {
+          "file": "STUDY001/1373.dcm",
+          "instance": 7,
+          "z": -103.941
+        },
+        {
+          "file": "STUDY001/1374.dcm",
+          "instance": 8,
+          "z": -103.341
+        },
+        {
+          "file": "STUDY001/1375.dcm",
+          "instance": 9,
+          "z": -102.741
+        },
+        {
+          "file": "STUDY001/1376.dcm",
+          "instance": 10,
+          "z": -102.141
+        },
+        {
+          "file": "STUDY001/1377.dcm",
+          "instance": 11,
+          "z": -101.541
+        },
+        {
+          "file": "STUDY001/1378.dcm",
+          "instance": 12,
+          "z": -100.941
+        },
+        {
+          "file": "STUDY001/1379.dcm",
+          "instance": 13,
+          "z": -100.341
+        },
+        {
+          "file": "STUDY001/1380.dcm",
+          "instance": 14,
+          "z": -99.7407
+        },
+        {
+          "file": "STUDY001/1381.dcm",
+          "instance": 15,
+          "z": -99.1407
+        },
+        {
+          "file": "STUDY001/1382.dcm",
+          "instance": 16,
+          "z": -98.5407
+        },
+        {
+          "file": "STUDY001/1383.dcm",
+          "instance": 17,
+          "z": -97.9407
+        },
+        {
+          "file": "STUDY001/1384.dcm",
+          "instance": 18,
+          "z": -97.3407
+        },
+        {
+          "file": "STUDY001/1385.dcm",
+          "instance": 19,
+          "z": -96.7407
+        },
+        {
+          "file": "STUDY001/1386.dcm",
+          "instance": 20,
+          "z": -96.1407
+        },
+        {
+          "file": "STUDY001/1387.dcm",
+          "instance": 21,
+          "z": -95.5407
+        },
+        {
+          "file": "STUDY001/1388.dcm",
+          "instance": 22,
+          "z": -94.9407
+        },
+        {
+          "file": "STUDY001/1389.dcm",
+          "instance": 23,
+          "z": -94.3407
+        },
+        {
+          "file": "STUDY001/1390.dcm",
+          "instance": 24,
+          "z": -93.7407
+        },
+        {
+          "file": "STUDY001/1391.dcm",
+          "instance": 25,
+          "z": -93.1407
+        },
+        {
+          "file": "STUDY001/1392.dcm",
+          "instance": 26,
+          "z": -92.5407
+        },
+        {
+          "file": "STUDY001/1393.dcm",
+          "instance": 27,
+          "z": -91.9407
+        },
+        {
+          "file": "STUDY001/1394.dcm",
+          "instance": 28,
+          "z": -91.3407
+        },
+        {
+          "file": "STUDY001/1395.dcm",
+          "instance": 29,
+          "z": -90.7407
+        },
+        {
+          "file": "STUDY001/1396.dcm",
+          "instance": 30,
+          "z": -90.1407
+        },
+        {
+          "file": "STUDY001/1397.dcm",
+          "instance": 31,
+          "z": -89.5407
+        },
+        {
+          "file": "STUDY001/1398.dcm",
+          "instance": 32,
+          "z": -88.9407
+        },
+        {
+          "file": "STUDY001/1399.dcm",
+          "instance": 33,
+          "z": -88.3407
+        },
+        {
+          "file": "STUDY001/1400.dcm",
+          "instance": 34,
+          "z": -87.7407
+        },
+        {
+          "file": "STUDY001/1401.dcm",
+          "instance": 35,
+          "z": -87.1407
+        },
+        {
+          "file": "STUDY001/1402.dcm",
+          "instance": 36,
+          "z": -86.5407
+        },
+        {
+          "file": "STUDY001/1403.dcm",
+          "instance": 37,
+          "z": -85.9407
+        },
+        {
+          "file": "STUDY001/1404.dcm",
+          "instance": 38,
+          "z": -85.3407
+        },
+        {
+          "file": "STUDY001/1405.dcm",
+          "instance": 39,
+          "z": -84.7407
+        },
+        {
+          "file": "STUDY001/1406.dcm",
+          "instance": 40,
+          "z": -84.1407
+        },
+        {
+          "file": "STUDY001/1407.dcm",
+          "instance": 41,
+          "z": -83.5407
+        },
+        {
+          "file": "STUDY001/1408.dcm",
+          "instance": 42,
+          "z": -82.9407
+        },
+        {
+          "file": "STUDY001/1409.dcm",
+          "instance": 43,
+          "z": -82.3407
+        },
+        {
+          "file": "STUDY001/1410.dcm",
+          "instance": 44,
+          "z": -81.7407
+        },
+        {
+          "file": "STUDY001/1411.dcm",
+          "instance": 45,
+          "z": -81.1407
+        },
+        {
+          "file": "STUDY001/1412.dcm",
+          "instance": 46,
+          "z": -80.5407
+        },
+        {
+          "file": "STUDY001/1413.dcm",
+          "instance": 47,
+          "z": -79.9407
+        },
+        {
+          "file": "STUDY001/1414.dcm",
+          "instance": 48,
+          "z": -79.3407
+        },
+        {
+          "file": "STUDY001/1415.dcm",
+          "instance": 49,
+          "z": -78.7407
+        },
+        {
+          "file": "STUDY001/1416.dcm",
+          "instance": 50,
+          "z": -78.1407
+        },
+        {
+          "file": "STUDY001/1417.dcm",
+          "instance": 51,
+          "z": -77.5407
+        },
+        {
+          "file": "STUDY001/1418.dcm",
+          "instance": 52,
+          "z": -76.9407
+        },
+        {
+          "file": "STUDY001/1419.dcm",
+          "instance": 53,
+          "z": -76.3407
+        },
+        {
+          "file": "STUDY001/1420.dcm",
+          "instance": 54,
+          "z": -75.7407
+        },
+        {
+          "file": "STUDY001/1421.dcm",
+          "instance": 55,
+          "z": -75.1407
+        },
+        {
+          "file": "STUDY001/1422.dcm",
+          "instance": 56,
+          "z": -74.5407
+        },
+        {
+          "file": "STUDY001/1423.dcm",
+          "instance": 57,
+          "z": -73.9407
+        },
+        {
+          "file": "STUDY001/1424.dcm",
+          "instance": 58,
+          "z": -73.3407
+        },
+        {
+          "file": "STUDY001/1425.dcm",
+          "instance": 59,
+          "z": -72.7407
+        },
+        {
+          "file": "STUDY001/1426.dcm",
+          "instance": 60,
+          "z": -72.1407
+        },
+        {
+          "file": "STUDY001/1427.dcm",
+          "instance": 61,
+          "z": -71.5407
+        },
+        {
+          "file": "STUDY001/1428.dcm",
+          "instance": 62,
+          "z": -70.9407
+        },
+        {
+          "file": "STUDY001/1429.dcm",
+          "instance": 63,
+          "z": -70.3407
+        },
+        {
+          "file": "STUDY001/1430.dcm",
+          "instance": 64,
+          "z": -69.7407
+        },
+        {
+          "file": "STUDY001/1431.dcm",
+          "instance": 65,
+          "z": -69.1407
+        },
+        {
+          "file": "STUDY001/1432.dcm",
+          "instance": 66,
+          "z": -68.5407
+        },
+        {
+          "file": "STUDY001/1433.dcm",
+          "instance": 67,
+          "z": -67.9407
+        },
+        {
+          "file": "STUDY001/1434.dcm",
+          "instance": 68,
+          "z": -67.3407
+        },
+        {
+          "file": "STUDY001/1435.dcm",
+          "instance": 69,
+          "z": -66.7407
+        },
+        {
+          "file": "STUDY001/1436.dcm",
+          "instance": 70,
+          "z": -66.1407
+        },
+        {
+          "file": "STUDY001/1437.dcm",
+          "instance": 71,
+          "z": -65.5407
+        },
+        {
+          "file": "STUDY001/1438.dcm",
+          "instance": 72,
+          "z": -64.9407
+        },
+        {
+          "file": "STUDY001/1439.dcm",
+          "instance": 73,
+          "z": -64.3407
+        },
+        {
+          "file": "STUDY001/1440.dcm",
+          "instance": 74,
+          "z": -63.7407
+        },
+        {
+          "file": "STUDY001/1441.dcm",
+          "instance": 75,
+          "z": -63.1407
+        },
+        {
+          "file": "STUDY001/1442.dcm",
+          "instance": 76,
+          "z": -62.5407
+        },
+        {
+          "file": "STUDY001/1443.dcm",
+          "instance": 77,
+          "z": -61.9407
+        },
+        {
+          "file": "STUDY001/1444.dcm",
+          "instance": 78,
+          "z": -61.3407
+        },
+        {
+          "file": "STUDY001/1445.dcm",
+          "instance": 79,
+          "z": -60.7407
+        },
+        {
+          "file": "STUDY001/1446.dcm",
+          "instance": 80,
+          "z": -60.1407
+        },
+        {
+          "file": "STUDY001/1447.dcm",
+          "instance": 81,
+          "z": -59.5407
+        },
+        {
+          "file": "STUDY001/1448.dcm",
+          "instance": 82,
+          "z": -58.9407
+        },
+        {
+          "file": "STUDY001/1449.dcm",
+          "instance": 83,
+          "z": -58.3407
+        },
+        {
+          "file": "STUDY001/1450.dcm",
+          "instance": 84,
+          "z": -57.7407
+        },
+        {
+          "file": "STUDY001/1451.dcm",
+          "instance": 85,
+          "z": -57.1407
+        },
+        {
+          "file": "STUDY001/1452.dcm",
+          "instance": 86,
+          "z": -56.5407
+        },
+        {
+          "file": "STUDY001/1453.dcm",
+          "instance": 87,
+          "z": -55.9407
+        },
+        {
+          "file": "STUDY001/1454.dcm",
+          "instance": 88,
+          "z": -55.3407
+        },
+        {
+          "file": "STUDY001/1455.dcm",
+          "instance": 89,
+          "z": -54.7407
+        },
+        {
+          "file": "STUDY001/1456.dcm",
+          "instance": 90,
+          "z": -54.1407
+        },
+        {
+          "file": "STUDY001/1457.dcm",
+          "instance": 91,
+          "z": -53.5407
+        },
+        {
+          "file": "STUDY001/1458.dcm",
+          "instance": 92,
+          "z": -52.9407
+        },
+        {
+          "file": "STUDY001/1459.dcm",
+          "instance": 93,
+          "z": -52.3407
+        },
+        {
+          "file": "STUDY001/1460.dcm",
+          "instance": 94,
+          "z": -51.7407
+        },
+        {
+          "file": "STUDY001/1461.dcm",
+          "instance": 95,
+          "z": -51.1407
+        },
+        {
+          "file": "STUDY001/1462.dcm",
+          "instance": 96,
+          "z": -50.5407
+        },
+        {
+          "file": "STUDY001/1463.dcm",
+          "instance": 97,
+          "z": -49.9407
+        },
+        {
+          "file": "STUDY001/1464.dcm",
+          "instance": 98,
+          "z": -49.3407
+        },
+        {
+          "file": "STUDY001/1465.dcm",
+          "instance": 99,
+          "z": -48.7407
+        },
+        {
+          "file": "STUDY001/1466.dcm",
+          "instance": 100,
+          "z": -48.1407
+        },
+        {
+          "file": "STUDY001/1467.dcm",
+          "instance": 101,
+          "z": -47.5407
+        },
+        {
+          "file": "STUDY001/1468.dcm",
+          "instance": 102,
+          "z": -46.9407
+        },
+        {
+          "file": "STUDY001/1469.dcm",
+          "instance": 103,
+          "z": -46.3407
+        },
+        {
+          "file": "STUDY001/1470.dcm",
+          "instance": 104,
+          "z": -45.7407
+        },
+        {
+          "file": "STUDY001/1471.dcm",
+          "instance": 105,
+          "z": -45.1407
+        },
+        {
+          "file": "STUDY001/1472.dcm",
+          "instance": 106,
+          "z": -44.5407
+        },
+        {
+          "file": "STUDY001/1473.dcm",
+          "instance": 107,
+          "z": -43.9407
+        },
+        {
+          "file": "STUDY001/1474.dcm",
+          "instance": 108,
+          "z": -43.3407
+        },
+        {
+          "file": "STUDY001/1475.dcm",
+          "instance": 109,
+          "z": -42.7407
+        },
+        {
+          "file": "STUDY001/1476.dcm",
+          "instance": 110,
+          "z": -42.1407
+        },
+        {
+          "file": "STUDY001/1477.dcm",
+          "instance": 111,
+          "z": -41.5407
+        },
+        {
+          "file": "STUDY001/1478.dcm",
+          "instance": 112,
+          "z": -40.9407
+        },
+        {
+          "file": "STUDY001/1479.dcm",
+          "instance": 113,
+          "z": -40.3407
+        },
+        {
+          "file": "STUDY001/1480.dcm",
+          "instance": 114,
+          "z": -39.7407
+        },
+        {
+          "file": "STUDY001/1481.dcm",
+          "instance": 115,
+          "z": -39.1407
+        },
+        {
+          "file": "STUDY001/1482.dcm",
+          "instance": 116,
+          "z": -38.5407
+        },
+        {
+          "file": "STUDY001/1483.dcm",
+          "instance": 117,
+          "z": -37.9407
+        },
+        {
+          "file": "STUDY001/1484.dcm",
+          "instance": 118,
+          "z": -37.3407
+        },
+        {
+          "file": "STUDY001/1485.dcm",
+          "instance": 119,
+          "z": -36.7407
+        },
+        {
+          "file": "STUDY001/1486.dcm",
+          "instance": 120,
+          "z": -36.1407
+        }
+      ]
+    },
+    {
+      "description": "AX T1 FS TSE POST FAST",
+      "uid": "1.3.12.2.1107.5.2.42.170036.30000026042712515153600021422",
+      "seriesNumber": "18",
+      "rows": 0,
+      "cols": 0,
+      "windowCenter": "",
+      "windowWidth": "",
+      "thickness": "4",
+      "files": [
+        {
+          "file": "STUDY001/1628.dcm",
+          "instance": 1,
+          "z": -109.611
+        },
+        {
+          "file": "STUDY001/1629.dcm",
+          "instance": 2,
+          "z": -104.411
+        },
+        {
+          "file": "STUDY001/1630.dcm",
+          "instance": 3,
+          "z": -99.2105
+        },
+        {
+          "file": "STUDY001/1631.dcm",
+          "instance": 4,
+          "z": -94.0105
+        },
+        {
+          "file": "STUDY001/1632.dcm",
+          "instance": 5,
+          "z": -88.8105
+        },
+        {
+          "file": "STUDY001/1633.dcm",
+          "instance": 6,
+          "z": -83.6105
+        },
+        {
+          "file": "STUDY001/1634.dcm",
+          "instance": 7,
+          "z": -78.4105
+        },
+        {
+          "file": "STUDY001/1635.dcm",
+          "instance": 8,
+          "z": -73.2105
+        },
+        {
+          "file": "STUDY001/1636.dcm",
+          "instance": 9,
+          "z": -68.0105
+        },
+        {
+          "file": "STUDY001/1637.dcm",
+          "instance": 10,
+          "z": -62.8105
+        },
+        {
+          "file": "STUDY001/1638.dcm",
+          "instance": 11,
+          "z": -57.6105
+        },
+        {
+          "file": "STUDY001/1639.dcm",
+          "instance": 12,
+          "z": -52.4105
+        },
+        {
+          "file": "STUDY001/1640.dcm",
+          "instance": 13,
+          "z": -47.2105
+        },
+        {
+          "file": "STUDY001/1641.dcm",
+          "instance": 14,
+          "z": -42.0105
+        },
+        {
+          "file": "STUDY001/1642.dcm",
+          "instance": 15,
+          "z": -36.8105
+        },
+        {
+          "file": "STUDY001/1643.dcm",
+          "instance": 16,
+          "z": -31.6105
+        },
+        {
+          "file": "STUDY001/1644.dcm",
+          "instance": 17,
+          "z": -26.4105
+        },
+        {
+          "file": "STUDY001/1645.dcm",
+          "instance": 18,
+          "z": -21.2105
+        },
+        {
+          "file": "STUDY001/1646.dcm",
+          "instance": 19,
+          "z": -16.0105
+        },
+        {
+          "file": "STUDY001/1647.dcm",
+          "instance": 20,
+          "z": -10.8105
+        },
+        {
+          "file": "STUDY001/1648.dcm",
+          "instance": 21,
+          "z": -5.61053
+        },
+        {
+          "file": "STUDY001/1649.dcm",
+          "instance": 22,
+          "z": -0.410526
+        },
+        {
+          "file": "STUDY001/1650.dcm",
+          "instance": 23,
+          "z": 4.78947
+        },
+        {
+          "file": "STUDY001/1651.dcm",
+          "instance": 24,
+          "z": 9.98948
+        },
+        {
+          "file": "STUDY001/1652.dcm",
+          "instance": 25,
+          "z": 15.1895
+        },
+        {
+          "file": "STUDY001/1653.dcm",
+          "instance": 26,
+          "z": 20.3895
+        },
+        {
+          "file": "STUDY001/1654.dcm",
+          "instance": 27,
+          "z": 25.5895
+        },
+        {
+          "file": "STUDY001/1655.dcm",
+          "instance": 28,
+          "z": 30.7895
+        },
+        {
+          "file": "STUDY001/1656.dcm",
+          "instance": 29,
+          "z": 35.9895
+        },
+        {
+          "file": "STUDY001/1657.dcm",
+          "instance": 30,
+          "z": 41.1895
+        }
+      ]
+    },
+    {
+      "description": "SAG T1 FLAIR",
+      "uid": "1.3.12.2.1107.5.2.42.170036.30000026042712515153600018040",
+      "seriesNumber": "2",
+      "rows": 0,
+      "cols": 0,
+      "windowCenter": "",
+      "windowWidth": "",
+      "thickness": "4",
+      "files": [
+        {
+          "file": "STUDY001/1.dcm",
+          "instance": 1,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/2.dcm",
+          "instance": 2,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/3.dcm",
+          "instance": 3,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/4.dcm",
+          "instance": 4,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/5.dcm",
+          "instance": 5,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/6.dcm",
+          "instance": 6,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/7.dcm",
+          "instance": 7,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/8.dcm",
+          "instance": 8,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/9.dcm",
+          "instance": 9,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/10.dcm",
+          "instance": 10,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/11.dcm",
+          "instance": 11,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/12.dcm",
+          "instance": 12,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/13.dcm",
+          "instance": 13,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/14.dcm",
+          "instance": 14,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/15.dcm",
+          "instance": 15,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/16.dcm",
+          "instance": 16,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/17.dcm",
+          "instance": 17,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/18.dcm",
+          "instance": 18,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/19.dcm",
+          "instance": 19,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/20.dcm",
+          "instance": 20,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/21.dcm",
+          "instance": 21,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/22.dcm",
+          "instance": 22,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/23.dcm",
+          "instance": 23,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/24.dcm",
+          "instance": 24,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/25.dcm",
+          "instance": 25,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/26.dcm",
+          "instance": 26,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/27.dcm",
+          "instance": 27,
+          "z": 69.7564
+        },
+        {
+          "file": "STUDY001/28.dcm",
+          "instance": 28,
+          "z": 69.7564
+        }
+      ]
+    },
+    {
+      "description": "AX DWI 2000_TRACEW",
+      "uid": "1.3.12.2.1107.5.2.42.170036.30000026042712515153600018164",
+      "seriesNumber": "3",
+      "rows": 0,
+      "cols": 0,
+      "windowCenter": "",
+      "windowWidth": "",
+      "thickness": "4",
+      "files": [
+        {
+          "file": "STUDY001/29.dcm",
+          "instance": 1,
+          "z": -109.611
+        },
+        {
+          "file": "STUDY001/30.dcm",
+          "instance": 2,
+          "z": -104.411
+        },
+        {
+          "file": "STUDY001/31.dcm",
+          "instance": 3,
+          "z": -99.2105
+        },
+        {
+          "file": "STUDY001/32.dcm",
+          "instance": 4,
+          "z": -94.0105
+        },
+        {
+          "file": "STUDY001/33.dcm",
+          "instance": 5,
+          "z": -88.8105
+        },
+        {
+          "file": "STUDY001/34.dcm",
+          "instance": 6,
+          "z": -83.6105
+        },
+        {
+          "file": "STUDY001/35.dcm",
+          "instance": 7,
+          "z": -78.4105
+        },
+        {
+          "file": "STUDY001/36.dcm",
+          "instance": 8,
+          "z": -73.2105
+        },
+        {
+          "file": "STUDY001/37.dcm",
+          "instance": 9,
+          "z": -68.0105
+        },
+        {
+          "file": "STUDY001/38.dcm",
+          "instance": 10,
+          "z": -62.8105
+        },
+        {
+          "file": "STUDY001/39.dcm",
+          "instance": 11,
+          "z": -57.6105
+        },
+        {
+          "file": "STUDY001/40.dcm",
+          "instance": 12,
+          "z": -52.4105
+        },
+        {
+          "file": "STUDY001/41.dcm",
+          "instance": 13,
+          "z": -47.2105
+        },
+        {
+          "file": "STUDY001/42.dcm",
+          "instance": 14,
+          "z": -42.0105
+        },
+        {
+          "file": "STUDY001/43.dcm",
+          "instance": 15,
+          "z": -36.8105
+        },
+        {
+          "file": "STUDY001/44.dcm",
+          "instance": 16,
+          "z": -31.6105
+        },
+        {
+          "file": "STUDY001/45.dcm",
+          "instance": 17,
+          "z": -26.4105
+        },
+        {
+          "file": "STUDY001/46.dcm",
+          "instance": 18,
+          "z": -21.2105
+        },
+        {
+          "file": "STUDY001/47.dcm",
+          "instance": 19,
+          "z": -16.0105
+        },
+        {
+          "file": "STUDY001/48.dcm",
+          "instance": 20,
+          "z": -10.8105
+        },
+        {
+          "file": "STUDY001/49.dcm",
+          "instance": 21,
+          "z": -5.61053
+        },
+        {
+          "file": "STUDY001/50.dcm",
+          "instance": 22,
+          "z": -0.410526
+        },
+        {
+          "file": "STUDY001/51.dcm",
+          "instance": 23,
+          "z": 4.78947
+        },
+        {
+          "file": "STUDY001/52.dcm",
+          "instance": 24,
+          "z": 9.98948
+        },
+        {
+          "file": "STUDY001/53.dcm",
+          "instance": 25,
+          "z": 15.1895
+        },
+        {
+          "file": "STUDY001/54.dcm",
+          "instance": 26,
+          "z": 20.3895
+        },
+        {
+          "file": "STUDY001/55.dcm",
+          "instance": 27,
+          "z": 25.5895
+        },
+        {
+          "file": "STUDY001/56.dcm",
+          "instance": 28,
+          "z": 30.7895
+        },
+        {
+          "file": "STUDY001/57.dcm",
+          "instance": 29,
+          "z": 35.9895
+        },
+        {
+          "file": "STUDY001/58.dcm",
+          "instance": 30,
+          "z": 41.1895
+        }
+      ]
+    },
+    {
+      "description": "AX DWI 2000_ADC",
+      "uid": "1.3.12.2.1107.5.2.42.170036.30000026042712515153600018228",
+      "seriesNumber": "4",
+      "rows": 0,
+      "cols": 0,
+      "windowCenter": "",
+      "windowWidth": "",
+      "thickness": "4",
+      "files": [
+        {
+          "file": "STUDY001/59.dcm",
+          "instance": 1,
+          "z": -109.611
+        },
+        {
+          "file": "STUDY001/60.dcm",
+          "instance": 2,
+          "z": -104.411
+        },
+        {
+          "file": "STUDY001/61.dcm",
+          "instance": 3,
+          "z": -99.2105
+        },
+        {
+          "file": "STUDY001/62.dcm",
+          "instance": 4,
+          "z": -94.0105
+        },
+        {
+          "file": "STUDY001/63.dcm",
+          "instance": 5,
+          "z": -88.8105
+        },
+        {
+          "file": "STUDY001/64.dcm",
+          "instance": 6,
+          "z": -83.6105
+        },
+        {
+          "file": "STUDY001/65.dcm",
+          "instance": 7,
+          "z": -78.4105
+        },
+        {
+          "file": "STUDY001/66.dcm",
+          "instance": 8,
+          "z": -73.2105
+        },
+        {
+          "file": "STUDY001/67.dcm",
+          "instance": 9,
+          "z": -68.0105
+        },
+        {
+          "file": "STUDY001/68.dcm",
+          "instance": 10,
+          "z": -62.8105
+        },
+        {
+          "file": "STUDY001/69.dcm",
+          "instance": 11,
+          "z": -57.6105
+        },
+        {
+          "file": "STUDY001/70.dcm",
+          "instance": 12,
+          "z": -52.4105
+        },
+        {
+          "file": "STUDY001/71.dcm",
+          "instance": 13,
+          "z": -47.2105
+        },
+        {
+          "file": "STUDY001/72.dcm",
+          "instance": 14,
+          "z": -42.0105
+        },
+        {
+          "file": "STUDY001/73.dcm",
+          "instance": 15,
+          "z": -36.8105
+        },
+        {
+          "file": "STUDY001/74.dcm",
+          "instance": 16,
+          "z": -31.6105
+        },
+        {
+          "file": "STUDY001/75.dcm",
+          "instance": 17,
+          "z": -26.4105
+        },
+        {
+          "file": "STUDY001/76.dcm",
+          "instance": 18,
+          "z": -21.2105
+        },
+        {
+          "file": "STUDY001/77.dcm",
+          "instance": 19,
+          "z": -16.0105
+        },
+        {
+          "file": "STUDY001/78.dcm",
+          "instance": 20,
+          "z": -10.8105
+        },
+        {
+          "file": "STUDY001/79.dcm",
+          "instance": 21,
+          "z": -5.61053
+        },
+        {
+          "file": "STUDY001/80.dcm",
+          "instance": 22,
+          "z": -0.410526
+        },
+        {
+          "file": "STUDY001/81.dcm",
+          "instance": 23,
+          "z": 4.78947
+        },
+        {
+          "file": "STUDY001/82.dcm",
+          "instance": 24,
+          "z": 9.98948
+        },
+        {
+          "file": "STUDY001/83.dcm",
+          "instance": 25,
+          "z": 15.1895
+        },
+        {
+          "file": "STUDY001/84.dcm",
+          "instance": 26,
+          "z": 20.3895
+        },
+        {
+          "file": "STUDY001/85.dcm",
+          "instance": 27,
+          "z": 25.5895
+        },
+        {
+          "file": "STUDY001/86.dcm",
+          "instance": 28,
+          "z": 30.7895
+        },
+        {
+          "file": "STUDY001/87.dcm",
+          "instance": 29,
+          "z": 35.9895
+        },
+        {
+          "file": "STUDY001/88.dcm",
+          "instance": 30,
+          "z": 41.1895
+        }
+      ]
+    },
+    {
+      "description": "AX T2 FLAIR",
+      "uid": "1.3.12.2.1107.5.2.42.170036.30000026042712515153600018292",
+      "seriesNumber": "5",
+      "rows": 0,
+      "cols": 0,
+      "windowCenter": "",
+      "windowWidth": "",
+      "thickness": "4",
+      "files": [
+        {
+          "file": "STUDY001/89.dcm",
+          "instance": 1,
+          "z": -109.611
+        },
+        {
+          "file": "STUDY001/90.dcm",
+          "instance": 2,
+          "z": -104.411
+        },
+        {
+          "file": "STUDY001/91.dcm",
+          "instance": 3,
+          "z": -99.2105
+        },
+        {
+          "file": "STUDY001/92.dcm",
+          "instance": 4,
+          "z": -94.0105
+        },
+        {
+          "file": "STUDY001/93.dcm",
+          "instance": 5,
+          "z": -88.8105
+        },
+        {
+          "file": "STUDY001/94.dcm",
+          "instance": 6,
+          "z": -83.6105
+        },
+        {
+          "file": "STUDY001/95.dcm",
+          "instance": 7,
+          "z": -78.4105
+        },
+        {
+          "file": "STUDY001/96.dcm",
+          "instance": 8,
+          "z": -73.2105
+        },
+        {
+          "file": "STUDY001/97.dcm",
+          "instance": 9,
+          "z": -68.0105
+        },
+        {
+          "file": "STUDY001/98.dcm",
+          "instance": 10,
+          "z": -62.8105
+        },
+        {
+          "file": "STUDY001/99.dcm",
+          "instance": 11,
+          "z": -57.6105
+        },
+        {
+          "file": "STUDY001/100.dcm",
+          "instance": 12,
+          "z": -52.4105
+        },
+        {
+          "file": "STUDY001/101.dcm",
+          "instance": 13,
+          "z": -47.2105
+        },
+        {
+          "file": "STUDY001/102.dcm",
+          "instance": 14,
+          "z": -42.0105
+        },
+        {
+          "file": "STUDY001/103.dcm",
+          "instance": 15,
+          "z": -36.8105
+        },
+        {
+          "file": "STUDY001/104.dcm",
+          "instance": 16,
+          "z": -31.6105
+        },
+        {
+          "file": "STUDY001/105.dcm",
+          "instance": 17,
+          "z": -26.4105
+        },
+        {
+          "file": "STUDY001/106.dcm",
+          "instance": 18,
+          "z": -21.2105
+        },
+        {
+          "file": "STUDY001/107.dcm",
+          "instance": 19,
+          "z": -16.0105
+        },
+        {
+          "file": "STUDY001/108.dcm",
+          "instance": 20,
+          "z": -10.8105
+        },
+        {
+          "file": "STUDY001/109.dcm",
+          "instance": 21,
+          "z": -5.61053
+        },
+        {
+          "file": "STUDY001/110.dcm",
+          "instance": 22,
+          "z": -0.410526
+        },
+        {
+          "file": "STUDY001/111.dcm",
+          "instance": 23,
+          "z": 4.78947
+        },
+        {
+          "file": "STUDY001/112.dcm",
+          "instance": 24,
+          "z": 9.98948
+        },
+        {
+          "file": "STUDY001/113.dcm",
+          "instance": 25,
+          "z": 15.1895
+        },
+        {
+          "file": "STUDY001/114.dcm",
+          "instance": 26,
+          "z": 20.3895
+        },
+        {
+          "file": "STUDY001/115.dcm",
+          "instance": 27,
+          "z": 25.5895
+        },
+        {
+          "file": "STUDY001/116.dcm",
+          "instance": 28,
+          "z": 30.7895
+        },
+        {
+          "file": "STUDY001/117.dcm",
+          "instance": 29,
+          "z": 35.9895
+        },
+        {
+          "file": "STUDY001/118.dcm",
+          "instance": 30,
+          "z": 41.1895
+        }
+      ]
+    },
+    {
+      "description": "AX T2 SWI_SWI",
+      "uid": "1.3.12.2.1107.5.2.42.170036.30000026042712515153600018356",
+      "seriesNumber": "6",
+      "rows": 0,
+      "cols": 0,
+      "windowCenter": "",
+      "windowWidth": "",
+      "thickness": "1.5",
+      "files": [
+        {
+          "file": "STUDY001/119.dcm",
+          "instance": 1,
+          "z": -108.993
+        },
+        {
+          "file": "STUDY001/120.dcm",
+          "instance": 2,
+          "z": -107.493
+        },
+        {
+          "file": "STUDY001/121.dcm",
+          "instance": 3,
+          "z": -105.993
+        },
+        {
+          "file": "STUDY001/122.dcm",
+          "instance": 4,
+          "z": -104.493
+        },
+        {
+          "file": "STUDY001/123.dcm",
+          "instance": 5,
+          "z": -102.993
+        },
+        {
+          "file": "STUDY001/124.dcm",
+          "instance": 6,
+          "z": -101.493
+        },
+        {
+          "file": "STUDY001/125.dcm",
+          "instance": 7,
+          "z": -99.9926
+        },
+        {
+          "file": "STUDY001/126.dcm",
+          "instance": 8,
+          "z": -98.4926
+        },
+        {
+          "file": "STUDY001/127.dcm",
+          "instance": 9,
+          "z": -96.9926
+        },
+        {
+          "file": "STUDY001/128.dcm",
+          "instance": 10,
+          "z": -95.4926
+        },
+        {
+          "file": "STUDY001/129.dcm",
+          "instance": 11,
+          "z": -93.9926
+        },
+        {
+          "file": "STUDY001/130.dcm",
+          "instance": 12,
+          "z": -92.4926
+        },
+        {
+          "file": "STUDY001/131.dcm",
+          "instance": 13,
+          "z": -90.9926
+        },
+        {
+          "file": "STUDY001/132.dcm",
+          "instance": 14,
+          "z": -89.4926
+        },
+        {
+          "file": "STUDY001/133.dcm",
+          "instance": 15,
+          "z": -87.9926
+        },
+        {
+          "file": "STUDY001/134.dcm",
+          "instance": 16,
+          "z": -86.4926
+        },
+        {
+          "file": "STUDY001/135.dcm",
+          "instance": 17,
+          "z": -84.9926
+        },
+        {
+          "file": "STUDY001/136.dcm",
+          "instance": 18,
+          "z": -83.4926
+        },
+        {
+          "file": "STUDY001/137.dcm",
+          "instance": 19,
+          "z": -81.9926
+        },
+        {
+          "file": "STUDY001/138.dcm",
+          "instance": 20,
+          "z": -80.4926
+        },
+        {
+          "file": "STUDY001/139.dcm",
+          "instance": 21,
+          "z": -78.9926
+        },
+        {
+          "file": "STUDY001/140.dcm",
+          "instance": 22,
+          "z": -77.4926
+        },
+        {
+          "file": "STUDY001/141.dcm",
+          "instance": 23,
+          "z": -75.9926
+        },
+        {
+          "file": "STUDY001/142.dcm",
+          "instance": 24,
+          "z": -74.4926
+        },
+        {
+          "file": "STUDY001/143.dcm",
+          "instance": 25,
+          "z": -72.9926
+        },
+        {
+          "file": "STUDY001/144.dcm",
+          "instance": 26,
+          "z": -71.4926
+        },
+        {
+          "file": "STUDY001/145.dcm",
+          "instance": 27,
+          "z": -69.9926
+        },
+        {
+          "file": "STUDY001/146.dcm",
+          "instance": 28,
+          "z": -68.4926
+        },
+        {
+          "file": "STUDY001/147.dcm",
+          "instance": 29,
+          "z": -66.9926
+        },
+        {
+          "file": "STUDY001/148.dcm",
+          "instance": 30,
+          "z": -65.4926
+        },
+        {
+          "file": "STUDY001/149.dcm",
+          "instance": 31,
+          "z": -63.9926
+        },
+        {
+          "file": "STUDY001/150.dcm",
+          "instance": 32,
+          "z": -62.4926
+        },
+        {
+          "file": "STUDY001/151.dcm",
+          "instance": 33,
+          "z": -60.9926
+        },
+        {
+          "file": "STUDY001/152.dcm",
+          "instance": 34,
+          "z": -59.4926
+        },
+        {
+          "file": "STUDY001/153.dcm",
+          "instance": 35,
+          "z": -57.9926
+        },
+        {
+          "file": "STUDY001/154.dcm",
+          "instance": 36,
+          "z": -56.4926
+        },
+        {
+          "file": "STUDY001/155.dcm",
+          "instance": 37,
+          "z": -54.9926
+        },
+        {
+          "file": "STUDY001/156.dcm",
+          "instance": 38,
+          "z": -53.4926
+        },
+        {
+          "file": "STUDY001/157.dcm",
+          "instance": 39,
+          "z": -51.9926
+        },
+        {
+          "file": "STUDY001/158.dcm",
+          "instance": 40,
+          "z": -50.4926
+        },
+        {
+          "file": "STUDY001/159.dcm",
+          "instance": 41,
+          "z": -48.9926
+        },
+        {
+          "file": "STUDY001/160.dcm",
+          "instance": 42,
+          "z": -47.4926
+        },
+        {
+          "file": "STUDY001/161.dcm",
+          "instance": 43,
+          "z": -45.9926
+        },
+        {
+          "file": "STUDY001/162.dcm",
+          "instance": 44,
+          "z": -44.4926
+        },
+        {
+          "file": "STUDY001/163.dcm",
+          "instance": 45,
+          "z": -42.9926
+        },
+        {
+          "file": "STUDY001/164.dcm",
+          "instance": 46,
+          "z": -41.4926
+        },
+        {
+          "file": "STUDY001/165.dcm",
+          "instance": 47,
+          "z": -39.9926
+        },
+        {
+          "file": "STUDY001/166.dcm",
+          "instance": 48,
+          "z": -38.4926
+        },
+        {
+          "file": "STUDY001/167.dcm",
+          "instance": 49,
+          "z": -36.9926
+        },
+        {
+          "file": "STUDY001/168.dcm",
+          "instance": 50,
+          "z": -35.4926
+        },
+        {
+          "file": "STUDY001/169.dcm",
+          "instance": 51,
+          "z": -33.9926
+        },
+        {
+          "file": "STUDY001/170.dcm",
+          "instance": 52,
+          "z": -32.4926
+        },
+        {
+          "file": "STUDY001/171.dcm",
+          "instance": 53,
+          "z": -30.9926
+        },
+        {
+          "file": "STUDY001/172.dcm",
+          "instance": 54,
+          "z": -29.4926
+        },
+        {
+          "file": "STUDY001/173.dcm",
+          "instance": 55,
+          "z": -27.9926
+        },
+        {
+          "file": "STUDY001/174.dcm",
+          "instance": 56,
+          "z": -26.4926
+        },
+        {
+          "file": "STUDY001/175.dcm",
+          "instance": 57,
+          "z": -24.9926
+        },
+        {
+          "file": "STUDY001/176.dcm",
+          "instance": 58,
+          "z": -23.4926
+        },
+        {
+          "file": "STUDY001/177.dcm",
+          "instance": 59,
+          "z": -21.9926
+        },
+        {
+          "file": "STUDY001/178.dcm",
+          "instance": 60,
+          "z": -20.4926
+        },
+        {
+          "file": "STUDY001/179.dcm",
+          "instance": 61,
+          "z": -18.9926
+        },
+        {
+          "file": "STUDY001/180.dcm",
+          "instance": 62,
+          "z": -17.4926
+        },
+        {
+          "file": "STUDY001/181.dcm",
+          "instance": 63,
+          "z": -15.9926
+        },
+        {
+          "file": "STUDY001/182.dcm",
+          "instance": 64,
+          "z": -14.4926
+        },
+        {
+          "file": "STUDY001/183.dcm",
+          "instance": 65,
+          "z": -12.9926
+        },
+        {
+          "file": "STUDY001/184.dcm",
+          "instance": 66,
+          "z": -11.4926
+        },
+        {
+          "file": "STUDY001/185.dcm",
+          "instance": 67,
+          "z": -9.99257
+        },
+        {
+          "file": "STUDY001/186.dcm",
+          "instance": 68,
+          "z": -8.49257
+        },
+        {
+          "file": "STUDY001/187.dcm",
+          "instance": 69,
+          "z": -6.99257
+        },
+        {
+          "file": "STUDY001/188.dcm",
+          "instance": 70,
+          "z": -5.49257
+        },
+        {
+          "file": "STUDY001/189.dcm",
+          "instance": 71,
+          "z": -3.99257
+        },
+        {
+          "file": "STUDY001/190.dcm",
+          "instance": 72,
+          "z": -2.49257
+        },
+        {
+          "file": "STUDY001/191.dcm",
+          "instance": 73,
+          "z": -0.992569
+        },
+        {
+          "file": "STUDY001/192.dcm",
+          "instance": 74,
+          "z": 0.507431
+        },
+        {
+          "file": "STUDY001/193.dcm",
+          "instance": 75,
+          "z": 2.00743
+        },
+        {
+          "file": "STUDY001/194.dcm",
+          "instance": 76,
+          "z": 3.50743
+        },
+        {
+          "file": "STUDY001/195.dcm",
+          "instance": 77,
+          "z": 5.00743
+        },
+        {
+          "file": "STUDY001/196.dcm",
+          "instance": 78,
+          "z": 6.50743
+        },
+        {
+          "file": "STUDY001/197.dcm",
+          "instance": 79,
+          "z": 8.00743
+        },
+        {
+          "file": "STUDY001/198.dcm",
+          "instance": 80,
+          "z": 9.50743
+        },
+        {
+          "file": "STUDY001/199.dcm",
+          "instance": 81,
+          "z": 11.0074
+        },
+        {
+          "file": "STUDY001/200.dcm",
+          "instance": 82,
+          "z": 12.5074
+        },
+        {
+          "file": "STUDY001/201.dcm",
+          "instance": 83,
+          "z": 14.0074
+        },
+        {
+          "file": "STUDY001/202.dcm",
+          "instance": 84,
+          "z": 15.5074
+        },
+        {
+          "file": "STUDY001/203.dcm",
+          "instance": 85,
+          "z": 17.0074
+        },
+        {
+          "file": "STUDY001/204.dcm",
+          "instance": 86,
+          "z": 18.5074
+        },
+        {
+          "file": "STUDY001/205.dcm",
+          "instance": 87,
+          "z": 20.0074
+        },
+        {
+          "file": "STUDY001/206.dcm",
+          "instance": 88,
+          "z": 21.5074
+        },
+        {
+          "file": "STUDY001/207.dcm",
+          "instance": 89,
+          "z": 23.0074
+        },
+        {
+          "file": "STUDY001/208.dcm",
+          "instance": 90,
+          "z": 24.5074
+        },
+        {
+          "file": "STUDY001/209.dcm",
+          "instance": 91,
+          "z": 26.0074
+        },
+        {
+          "file": "STUDY001/210.dcm",
+          "instance": 92,
+          "z": 27.5074
+        },
+        {
+          "file": "STUDY001/211.dcm",
+          "instance": 93,
+          "z": 29.0074
+        },
+        {
+          "file": "STUDY001/212.dcm",
+          "instance": 94,
+          "z": 30.5074
+        },
+        {
+          "file": "STUDY001/213.dcm",
+          "instance": 95,
+          "z": 32.0074
+        },
+        {
+          "file": "STUDY001/214.dcm",
+          "instance": 96,
+          "z": 33.5074
+        },
+        {
+          "file": "STUDY001/215.dcm",
+          "instance": 97,
+          "z": 35.0074
+        },
+        {
+          "file": "STUDY001/216.dcm",
+          "instance": 98,
+          "z": 36.5074
+        },
+        {
+          "file": "STUDY001/217.dcm",
+          "instance": 99,
+          "z": 38.0074
+        },
+        {
+          "file": "STUDY001/218.dcm",
+          "instance": 100,
+          "z": 39.5074
+        },
+        {
+          "file": "STUDY001/219.dcm",
+          "instance": 101,
+          "z": 41.0074
+        },
+        {
+          "file": "STUDY001/220.dcm",
+          "instance": 102,
+          "z": 42.5074
+        },
+        {
+          "file": "STUDY001/221.dcm",
+          "instance": 103,
+          "z": 44.0074
+        },
+        {
+          "file": "STUDY001/222.dcm",
+          "instance": 104,
+          "z": 45.5074
+        }
+      ]
+    },
+    {
+      "description": "AX T2 SWI_SWI_mIP",
+      "uid": "1.3.12.2.1107.5.2.42.170036.30000026042712515153600018568",
+      "seriesNumber": "7",
+      "rows": 0,
+      "cols": 0,
+      "windowCenter": "",
+      "windowWidth": "",
+      "thickness": "12",
+      "files": [
+        {
+          "file": "STUDY001/223.dcm",
+          "instance": 1,
+          "z": -103.743
+        },
+        {
+          "file": "STUDY001/224.dcm",
+          "instance": 2,
+          "z": -102.243
+        },
+        {
+          "file": "STUDY001/225.dcm",
+          "instance": 3,
+          "z": -100.743
+        },
+        {
+          "file": "STUDY001/226.dcm",
+          "instance": 4,
+          "z": -99.2426
+        },
+        {
+          "file": "STUDY001/227.dcm",
+          "instance": 5,
+          "z": -97.7426
+        },
+        {
+          "file": "STUDY001/228.dcm",
+          "instance": 6,
+          "z": -96.2426
+        },
+        {
+          "file": "STUDY001/229.dcm",
+          "instance": 7,
+          "z": -94.7426
+        },
+        {
+          "file": "STUDY001/230.dcm",
+          "instance": 8,
+          "z": -93.2426
+        },
+        {
+          "file": "STUDY001/231.dcm",
+          "instance": 9,
+          "z": -91.7426
+        },
+        {
+          "file": "STUDY001/232.dcm",
+          "instance": 10,
+          "z": -90.2426
+        },
+        {
+          "file": "STUDY001/233.dcm",
+          "instance": 11,
+          "z": -88.7426
+        },
+        {
+          "file": "STUDY001/234.dcm",
+          "instance": 12,
+          "z": -87.2426
+        },
+        {
+          "file": "STUDY001/235.dcm",
+          "instance": 13,
+          "z": -85.7426
+        },
+        {
+          "file": "STUDY001/236.dcm",
+          "instance": 14,
+          "z": -84.2426
+        },
+        {
+          "file": "STUDY001/237.dcm",
+          "instance": 15,
+          "z": -82.7426
+        },
+        {
+          "file": "STUDY001/238.dcm",
+          "instance": 16,
+          "z": -81.2426
+        },
+        {
+          "file": "STUDY001/239.dcm",
+          "instance": 17,
+          "z": -79.7426
+        },
+        {
+          "file": "STUDY001/240.dcm",
+          "instance": 18,
+          "z": -78.2426
+        },
+        {
+          "file": "STUDY001/241.dcm",
+          "instance": 19,
+          "z": -76.7426
+        },
+        {
+          "file": "STUDY001/242.dcm",
+          "instance": 20,
+          "z": -75.2426
+        },
+        {
+          "file": "STUDY001/243.dcm",
+          "instance": 21,
+          "z": -73.7426
+        },
+        {
+          "file": "STUDY001/244.dcm",
+          "instance": 22,
+          "z": -72.2426
+        },
+        {
+          "file": "STUDY001/245.dcm",
+          "instance": 23,
+          "z": -70.7426
+        },
+        {
+          "file": "STUDY001/246.dcm",
+          "instance": 24,
+          "z": -69.2426
+        },
+        {
+          "file": "STUDY001/247.dcm",
+          "instance": 25,
+          "z": -67.7426
+        },
+        {
+          "file": "STUDY001/248.dcm",
+          "instance": 26,
+          "z": -66.2426
+        },
+        {
+          "file": "STUDY001/249.dcm",
+          "instance": 27,
+          "z": -64.7426
+        },
+        {
+          "file": "STUDY001/250.dcm",
+          "instance": 28,
+          "z": -63.2426
+        },
+        {
+          "file": "STUDY001/251.dcm",
+          "instance": 29,
+          "z": -61.7426
+        },
+        {
+          "file": "STUDY001/252.dcm",
+          "instance": 30,
+          "z": -60.2426
+        },
+        {
+          "file": "STUDY001/253.dcm",
+          "instance": 31,
+          "z": -58.7426
+        },
+        {
+          "file": "STUDY001/254.dcm",
+          "instance": 32,
+          "z": -57.2426
+        },
+        {
+          "file": "STUDY001/255.dcm",
+          "instance": 33,
+          "z": -55.7426
+        },
+        {
+          "file": "STUDY001/256.dcm",
+          "instance": 34,
+          "z": -54.2426
+        },
+        {
+          "file": "STUDY001/257.dcm",
+          "instance": 35,
+          "z": -52.7426
+        },
+        {
+          "file": "STUDY001/258.dcm",
+          "instance": 36,
+          "z": -51.2426
+        },
+        {
+          "file": "STUDY001/259.dcm",
+          "instance": 37,
+          "z": -49.7426
+        },
+        {
+          "file": "STUDY001/260.dcm",
+          "instance": 38,
+          "z": -48.2426
+        },
+        {
+          "file": "STUDY001/261.dcm",
+          "instance": 39,
+          "z": -46.7426
+        },
+        {
+          "file": "STUDY001/262.dcm",
+          "instance": 40,
+          "z": -45.2426
+        },
+        {
+          "file": "STUDY001/263.dcm",
+          "instance": 41,
+          "z": -43.7426
+        },
+        {
+          "file": "STUDY001/264.dcm",
+          "instance": 42,
+          "z": -42.2426
+        },
+        {
+          "file": "STUDY001/265.dcm",
+          "instance": 43,
+          "z": -40.7426
+        },
+        {
+          "file": "STUDY001/266.dcm",
+          "instance": 44,
+          "z": -39.2426
+        },
+        {
+          "file": "STUDY001/267.dcm",
+          "instance": 45,
+          "z": -37.7426
+        },
+        {
+          "file": "STUDY001/268.dcm",
+          "instance": 46,
+          "z": -36.2426
+        },
+        {
+          "file": "STUDY001/269.dcm",
+          "instance": 47,
+          "z": -34.7426
+        },
+        {
+          "file": "STUDY001/270.dcm",
+          "instance": 48,
+          "z": -33.2426
+        },
+        {
+          "file": "STUDY001/271.dcm",
+          "instance": 49,
+          "z": -31.7426
+        },
+        {
+          "file": "STUDY001/272.dcm",
+          "instance": 50,
+          "z": -30.2426
+        },
+        {
+          "file": "STUDY001/273.dcm",
+          "instance": 51,
+          "z": -28.7426
+        },
+        {
+          "file": "STUDY001/274.dcm",
+          "instance": 52,
+          "z": -27.2426
+        },
+        {
+          "file": "STUDY001/275.dcm",
+          "instance": 53,
+          "z": -25.7426
+        },
+        {
+          "file": "STUDY001/276.dcm",
+          "instance": 54,
+          "z": -24.2426
+        },
+        {
+          "file": "STUDY001/277.dcm",
+          "instance": 55,
+          "z": -22.7426
+        },
+        {
+          "file": "STUDY001/278.dcm",
+          "instance": 56,
+          "z": -21.2426
+        },
+        {
+          "file": "STUDY001/279.dcm",
+          "instance": 57,
+          "z": -19.7426
+        },
+        {
+          "file": "STUDY001/280.dcm",
+          "instance": 58,
+          "z": -18.2426
+        },
+        {
+          "file": "STUDY001/281.dcm",
+          "instance": 59,
+          "z": -16.7426
+        },
+        {
+          "file": "STUDY001/282.dcm",
+          "instance": 60,
+          "z": -15.2426
+        },
+        {
+          "file": "STUDY001/283.dcm",
+          "instance": 61,
+          "z": -13.7426
+        },
+        {
+          "file": "STUDY001/284.dcm",
+          "instance": 62,
+          "z": -12.2426
+        },
+        {
+          "file": "STUDY001/285.dcm",
+          "instance": 63,
+          "z": -10.7426
+        },
+        {
+          "file": "STUDY001/286.dcm",
+          "instance": 64,
+          "z": -9.24257
+        },
+        {
+          "file": "STUDY001/287.dcm",
+          "instance": 65,
+          "z": -7.74257
+        },
+        {
+          "file": "STUDY001/288.dcm",
+          "instance": 66,
+          "z": -6.24257
+        },
+        {
+          "file": "STUDY001/289.dcm",
+          "instance": 67,
+          "z": -4.74257
+        },
+        {
+          "file": "STUDY001/290.dcm",
+          "instance": 68,
+          "z": -3.24257
+        },
+        {
+          "file": "STUDY001/291.dcm",
+          "instance": 69,
+          "z": -1.74257
+        },
+        {
+          "file": "STUDY001/292.dcm",
+          "instance": 70,
+          "z": -0.242569
+        },
+        {
+          "file": "STUDY001/293.dcm",
+          "instance": 71,
+          "z": 1.25743
+        },
+        {
+          "file": "STUDY001/294.dcm",
+          "instance": 72,
+          "z": 2.75743
+        },
+        {
+          "file": "STUDY001/295.dcm",
+          "instance": 73,
+          "z": 4.25743
+        },
+        {
+          "file": "STUDY001/296.dcm",
+          "instance": 74,
+          "z": 5.75743
+        },
+        {
+          "file": "STUDY001/297.dcm",
+          "instance": 75,
+          "z": 7.25743
+        },
+        {
+          "file": "STUDY001/298.dcm",
+          "instance": 76,
+          "z": 8.75743
+        },
+        {
+          "file": "STUDY001/299.dcm",
+          "instance": 77,
+          "z": 10.2574
+        },
+        {
+          "file": "STUDY001/300.dcm",
+          "instance": 78,
+          "z": 11.7574
+        },
+        {
+          "file": "STUDY001/301.dcm",
+          "instance": 79,
+          "z": 13.2574
+        },
+        {
+          "file": "STUDY001/302.dcm",
+          "instance": 80,
+          "z": 14.7574
+        },
+        {
+          "file": "STUDY001/303.dcm",
+          "instance": 81,
+          "z": 16.2574
+        },
+        {
+          "file": "STUDY001/304.dcm",
+          "instance": 82,
+          "z": 17.7574
+        },
+        {
+          "file": "STUDY001/305.dcm",
+          "instance": 83,
+          "z": 19.2574
+        },
+        {
+          "file": "STUDY001/306.dcm",
+          "instance": 84,
+          "z": 20.7574
+        },
+        {
+          "file": "STUDY001/307.dcm",
+          "instance": 85,
+          "z": 22.2574
+        },
+        {
+          "file": "STUDY001/308.dcm",
+          "instance": 86,
+          "z": 23.7574
+        },
+        {
+          "file": "STUDY001/309.dcm",
+          "instance": 87,
+          "z": 25.2574
+        },
+        {
+          "file": "STUDY001/310.dcm",
+          "instance": 88,
+          "z": 26.7574
+        },
+        {
+          "file": "STUDY001/311.dcm",
+          "instance": 89,
+          "z": 28.2574
+        },
+        {
+          "file": "STUDY001/312.dcm",
+          "instance": 90,
+          "z": 29.7574
+        },
+        {
+          "file": "STUDY001/313.dcm",
+          "instance": 91,
+          "z": 31.2574
+        },
+        {
+          "file": "STUDY001/314.dcm",
+          "instance": 92,
+          "z": 32.7574
+        },
+        {
+          "file": "STUDY001/315.dcm",
+          "instance": 93,
+          "z": 34.2574
+        },
+        {
+          "file": "STUDY001/316.dcm",
+          "instance": 94,
+          "z": 35.7574
+        },
+        {
+          "file": "STUDY001/317.dcm",
+          "instance": 95,
+          "z": 37.2574
+        },
+        {
+          "file": "STUDY001/318.dcm",
+          "instance": 96,
+          "z": 38.7574
+        },
+        {
+          "file": "STUDY001/319.dcm",
+          "instance": 97,
+          "z": 40.2574
+        }
+      ]
+    },
+    {
+      "description": "AX T2 SPACE TRIG",
+      "uid": "1.3.12.2.1107.5.2.42.170036.30000026042712515153600018766",
+      "seriesNumber": "8",
+      "rows": 0,
+      "cols": 0,
+      "windowCenter": "",
+      "windowWidth": "",
+      "thickness": "0.6",
+      "files": [
+        {
+          "file": "STUDY001/320.dcm",
+          "instance": 1,
+          "z": -107.541
+        },
+        {
+          "file": "STUDY001/321.dcm",
+          "instance": 2,
+          "z": -106.941
+        },
+        {
+          "file": "STUDY001/322.dcm",
+          "instance": 3,
+          "z": -106.341
+        },
+        {
+          "file": "STUDY001/323.dcm",
+          "instance": 4,
+          "z": -105.741
+        },
+        {
+          "file": "STUDY001/324.dcm",
+          "instance": 5,
+          "z": -105.141
+        },
+        {
+          "file": "STUDY001/325.dcm",
+          "instance": 6,
+          "z": -104.541
+        },
+        {
+          "file": "STUDY001/326.dcm",
+          "instance": 7,
+          "z": -103.941
+        },
+        {
+          "file": "STUDY001/327.dcm",
+          "instance": 8,
+          "z": -103.341
+        },
+        {
+          "file": "STUDY001/328.dcm",
+          "instance": 9,
+          "z": -102.741
+        },
+        {
+          "file": "STUDY001/329.dcm",
+          "instance": 10,
+          "z": -102.141
+        },
+        {
+          "file": "STUDY001/330.dcm",
+          "instance": 11,
+          "z": -101.541
+        },
+        {
+          "file": "STUDY001/331.dcm",
+          "instance": 12,
+          "z": -100.941
+        },
+        {
+          "file": "STUDY001/332.dcm",
+          "instance": 13,
+          "z": -100.341
+        },
+        {
+          "file": "STUDY001/333.dcm",
+          "instance": 14,
+          "z": -99.7407
+        },
+        {
+          "file": "STUDY001/334.dcm",
+          "instance": 15,
+          "z": -99.1407
+        },
+        {
+          "file": "STUDY001/335.dcm",
+          "instance": 16,
+          "z": -98.5407
+        },
+        {
+          "file": "STUDY001/336.dcm",
+          "instance": 17,
+          "z": -97.9407
+        },
+        {
+          "file": "STUDY001/337.dcm",
+          "instance": 18,
+          "z": -97.3407
+        },
+        {
+          "file": "STUDY001/338.dcm",
+          "instance": 19,
+          "z": -96.7407
+        },
+        {
+          "file": "STUDY001/339.dcm",
+          "instance": 20,
+          "z": -96.1407
+        },
+        {
+          "file": "STUDY001/340.dcm",
+          "instance": 21,
+          "z": -95.5407
+        },
+        {
+          "file": "STUDY001/341.dcm",
+          "instance": 22,
+          "z": -94.9407
+        },
+        {
+          "file": "STUDY001/342.dcm",
+          "instance": 23,
+          "z": -94.3407
+        },
+        {
+          "file": "STUDY001/343.dcm",
+          "instance": 24,
+          "z": -93.7407
+        },
+        {
+          "file": "STUDY001/344.dcm",
+          "instance": 25,
+          "z": -93.1407
+        },
+        {
+          "file": "STUDY001/345.dcm",
+          "instance": 26,
+          "z": -92.5407
+        },
+        {
+          "file": "STUDY001/346.dcm",
+          "instance": 27,
+          "z": -91.9407
+        },
+        {
+          "file": "STUDY001/347.dcm",
+          "instance": 28,
+          "z": -91.3407
+        },
+        {
+          "file": "STUDY001/348.dcm",
+          "instance": 29,
+          "z": -90.7407
+        },
+        {
+          "file": "STUDY001/349.dcm",
+          "instance": 30,
+          "z": -90.1407
+        },
+        {
+          "file": "STUDY001/350.dcm",
+          "instance": 31,
+          "z": -89.5407
+        },
+        {
+          "file": "STUDY001/351.dcm",
+          "instance": 32,
+          "z": -88.9407
+        },
+        {
+          "file": "STUDY001/352.dcm",
+          "instance": 33,
+          "z": -88.3407
+        },
+        {
+          "file": "STUDY001/353.dcm",
+          "instance": 34,
+          "z": -87.7407
+        },
+        {
+          "file": "STUDY001/354.dcm",
+          "instance": 35,
+          "z": -87.1407
+        },
+        {
+          "file": "STUDY001/355.dcm",
+          "instance": 36,
+          "z": -86.5407
+        },
+        {
+          "file": "STUDY001/356.dcm",
+          "instance": 37,
+          "z": -85.9407
+        },
+        {
+          "file": "STUDY001/357.dcm",
+          "instance": 38,
+          "z": -85.3407
+        },
+        {
+          "file": "STUDY001/358.dcm",
+          "instance": 39,
+          "z": -84.7407
+        },
+        {
+          "file": "STUDY001/359.dcm",
+          "instance": 40,
+          "z": -84.1407
+        },
+        {
+          "file": "STUDY001/360.dcm",
+          "instance": 41,
+          "z": -83.5407
+        },
+        {
+          "file": "STUDY001/361.dcm",
+          "instance": 42,
+          "z": -82.9407
+        },
+        {
+          "file": "STUDY001/362.dcm",
+          "instance": 43,
+          "z": -82.3407
+        },
+        {
+          "file": "STUDY001/363.dcm",
+          "instance": 44,
+          "z": -81.7407
+        },
+        {
+          "file": "STUDY001/364.dcm",
+          "instance": 45,
+          "z": -81.1407
+        },
+        {
+          "file": "STUDY001/365.dcm",
+          "instance": 46,
+          "z": -80.5407
+        },
+        {
+          "file": "STUDY001/366.dcm",
+          "instance": 47,
+          "z": -79.9407
+        },
+        {
+          "file": "STUDY001/367.dcm",
+          "instance": 48,
+          "z": -79.3407
+        },
+        {
+          "file": "STUDY001/368.dcm",
+          "instance": 49,
+          "z": -78.7407
+        },
+        {
+          "file": "STUDY001/369.dcm",
+          "instance": 50,
+          "z": -78.1407
+        },
+        {
+          "file": "STUDY001/370.dcm",
+          "instance": 51,
+          "z": -77.5407
+        },
+        {
+          "file": "STUDY001/371.dcm",
+          "instance": 52,
+          "z": -76.9407
+        },
+        {
+          "file": "STUDY001/372.dcm",
+          "instance": 53,
+          "z": -76.3407
+        },
+        {
+          "file": "STUDY001/373.dcm",
+          "instance": 54,
+          "z": -75.7407
+        },
+        {
+          "file": "STUDY001/374.dcm",
+          "instance": 55,
+          "z": -75.1407
+        },
+        {
+          "file": "STUDY001/375.dcm",
+          "instance": 56,
+          "z": -74.5407
+        },
+        {
+          "file": "STUDY001/376.dcm",
+          "instance": 57,
+          "z": -73.9407
+        },
+        {
+          "file": "STUDY001/377.dcm",
+          "instance": 58,
+          "z": -73.3407
+        },
+        {
+          "file": "STUDY001/378.dcm",
+          "instance": 59,
+          "z": -72.7407
+        },
+        {
+          "file": "STUDY001/379.dcm",
+          "instance": 60,
+          "z": -72.1407
+        },
+        {
+          "file": "STUDY001/380.dcm",
+          "instance": 61,
+          "z": -71.5407
+        },
+        {
+          "file": "STUDY001/381.dcm",
+          "instance": 62,
+          "z": -70.9407
+        },
+        {
+          "file": "STUDY001/382.dcm",
+          "instance": 63,
+          "z": -70.3407
+        },
+        {
+          "file": "STUDY001/383.dcm",
+          "instance": 64,
+          "z": -69.7407
+        },
+        {
+          "file": "STUDY001/384.dcm",
+          "instance": 65,
+          "z": -69.1407
+        },
+        {
+          "file": "STUDY001/385.dcm",
+          "instance": 66,
+          "z": -68.5407
+        },
+        {
+          "file": "STUDY001/386.dcm",
+          "instance": 67,
+          "z": -67.9407
+        },
+        {
+          "file": "STUDY001/387.dcm",
+          "instance": 68,
+          "z": -67.3407
+        },
+        {
+          "file": "STUDY001/388.dcm",
+          "instance": 69,
+          "z": -66.7407
+        },
+        {
+          "file": "STUDY001/389.dcm",
+          "instance": 70,
+          "z": -66.1407
+        },
+        {
+          "file": "STUDY001/390.dcm",
+          "instance": 71,
+          "z": -65.5407
+        },
+        {
+          "file": "STUDY001/391.dcm",
+          "instance": 72,
+          "z": -64.9407
+        },
+        {
+          "file": "STUDY001/392.dcm",
+          "instance": 73,
+          "z": -64.3407
+        },
+        {
+          "file": "STUDY001/393.dcm",
+          "instance": 74,
+          "z": -63.7407
+        },
+        {
+          "file": "STUDY001/394.dcm",
+          "instance": 75,
+          "z": -63.1407
+        },
+        {
+          "file": "STUDY001/395.dcm",
+          "instance": 76,
+          "z": -62.5407
+        },
+        {
+          "file": "STUDY001/396.dcm",
+          "instance": 77,
+          "z": -61.9407
+        },
+        {
+          "file": "STUDY001/397.dcm",
+          "instance": 78,
+          "z": -61.3407
+        },
+        {
+          "file": "STUDY001/398.dcm",
+          "instance": 79,
+          "z": -60.7407
+        },
+        {
+          "file": "STUDY001/399.dcm",
+          "instance": 80,
+          "z": -60.1407
+        },
+        {
+          "file": "STUDY001/400.dcm",
+          "instance": 81,
+          "z": -59.5407
+        },
+        {
+          "file": "STUDY001/401.dcm",
+          "instance": 82,
+          "z": -58.9407
+        },
+        {
+          "file": "STUDY001/402.dcm",
+          "instance": 83,
+          "z": -58.3407
+        },
+        {
+          "file": "STUDY001/403.dcm",
+          "instance": 84,
+          "z": -57.7407
+        },
+        {
+          "file": "STUDY001/404.dcm",
+          "instance": 85,
+          "z": -57.1407
+        },
+        {
+          "file": "STUDY001/405.dcm",
+          "instance": 86,
+          "z": -56.5407
+        },
+        {
+          "file": "STUDY001/406.dcm",
+          "instance": 87,
+          "z": -55.9407
+        },
+        {
+          "file": "STUDY001/407.dcm",
+          "instance": 88,
+          "z": -55.3407
+        },
+        {
+          "file": "STUDY001/408.dcm",
+          "instance": 89,
+          "z": -54.7407
+        },
+        {
+          "file": "STUDY001/409.dcm",
+          "instance": 90,
+          "z": -54.1407
+        },
+        {
+          "file": "STUDY001/410.dcm",
+          "instance": 91,
+          "z": -53.5407
+        },
+        {
+          "file": "STUDY001/411.dcm",
+          "instance": 92,
+          "z": -52.9407
+        },
+        {
+          "file": "STUDY001/412.dcm",
+          "instance": 93,
+          "z": -52.3407
+        },
+        {
+          "file": "STUDY001/413.dcm",
+          "instance": 94,
+          "z": -51.7407
+        },
+        {
+          "file": "STUDY001/414.dcm",
+          "instance": 95,
+          "z": -51.1407
+        },
+        {
+          "file": "STUDY001/415.dcm",
+          "instance": 96,
+          "z": -50.5407
+        },
+        {
+          "file": "STUDY001/416.dcm",
+          "instance": 97,
+          "z": -49.9407
+        },
+        {
+          "file": "STUDY001/417.dcm",
+          "instance": 98,
+          "z": -49.3407
+        },
+        {
+          "file": "STUDY001/418.dcm",
+          "instance": 99,
+          "z": -48.7407
+        },
+        {
+          "file": "STUDY001/419.dcm",
+          "instance": 100,
+          "z": -48.1407
+        },
+        {
+          "file": "STUDY001/420.dcm",
+          "instance": 101,
+          "z": -47.5407
+        },
+        {
+          "file": "STUDY001/421.dcm",
+          "instance": 102,
+          "z": -46.9407
+        },
+        {
+          "file": "STUDY001/422.dcm",
+          "instance": 103,
+          "z": -46.3407
+        },
+        {
+          "file": "STUDY001/423.dcm",
+          "instance": 104,
+          "z": -45.7407
+        },
+        {
+          "file": "STUDY001/424.dcm",
+          "instance": 105,
+          "z": -45.1407
+        },
+        {
+          "file": "STUDY001/425.dcm",
+          "instance": 106,
+          "z": -44.5407
+        },
+        {
+          "file": "STUDY001/426.dcm",
+          "instance": 107,
+          "z": -43.9407
+        },
+        {
+          "file": "STUDY001/427.dcm",
+          "instance": 108,
+          "z": -43.3407
+        },
+        {
+          "file": "STUDY001/428.dcm",
+          "instance": 109,
+          "z": -42.7407
+        },
+        {
+          "file": "STUDY001/429.dcm",
+          "instance": 110,
+          "z": -42.1407
+        },
+        {
+          "file": "STUDY001/430.dcm",
+          "instance": 111,
+          "z": -41.5407
+        },
+        {
+          "file": "STUDY001/431.dcm",
+          "instance": 112,
+          "z": -40.9407
+        },
+        {
+          "file": "STUDY001/432.dcm",
+          "instance": 113,
+          "z": -40.3407
+        },
+        {
+          "file": "STUDY001/433.dcm",
+          "instance": 114,
+          "z": -39.7407
+        },
+        {
+          "file": "STUDY001/434.dcm",
+          "instance": 115,
+          "z": -39.1407
+        },
+        {
+          "file": "STUDY001/435.dcm",
+          "instance": 116,
+          "z": -38.5407
+        },
+        {
+          "file": "STUDY001/436.dcm",
+          "instance": 117,
+          "z": -37.9407
+        },
+        {
+          "file": "STUDY001/437.dcm",
+          "instance": 118,
+          "z": -37.3407
+        },
+        {
+          "file": "STUDY001/438.dcm",
+          "instance": 119,
+          "z": -36.7407
+        },
+        {
+          "file": "STUDY001/439.dcm",
+          "instance": 120,
+          "z": -36.1407
+        }
+      ]
+    },
+    {
+      "description": "AX T2 SPACE TRIG_MPR_COR ORBITS/TRIG",
+      "uid": "1.3.12.2.1107.5.2.42.170036.30000026042712515153600019226",
+      "seriesNumber": "9",
+      "rows": 608,
+      "cols": 608,
+      "windowCenter": "176.1",
+      "windowWidth": "454.9",
+      "thickness": "1",
+      "files": [
+        {
+          "file": "STUDY001/544.dcm",
+          "instance": 1,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/545.dcm",
+          "instance": 2,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/546.dcm",
+          "instance": 3,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/547.dcm",
+          "instance": 4,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/548.dcm",
+          "instance": 5,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/549.dcm",
+          "instance": 6,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/550.dcm",
+          "instance": 7,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/551.dcm",
+          "instance": 8,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/552.dcm",
+          "instance": 9,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/553.dcm",
+          "instance": 10,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/554.dcm",
+          "instance": 11,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/555.dcm",
+          "instance": 12,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/556.dcm",
+          "instance": 13,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/557.dcm",
+          "instance": 14,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/558.dcm",
+          "instance": 15,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/559.dcm",
+          "instance": 16,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/560.dcm",
+          "instance": 17,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/561.dcm",
+          "instance": 18,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/562.dcm",
+          "instance": 19,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/563.dcm",
+          "instance": 20,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/564.dcm",
+          "instance": 21,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/565.dcm",
+          "instance": 22,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/566.dcm",
+          "instance": 23,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/567.dcm",
+          "instance": 24,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/568.dcm",
+          "instance": 25,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/569.dcm",
+          "instance": 26,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/570.dcm",
+          "instance": 27,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/571.dcm",
+          "instance": 28,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/572.dcm",
+          "instance": 29,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/573.dcm",
+          "instance": 30,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/574.dcm",
+          "instance": 31,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/575.dcm",
+          "instance": 32,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/576.dcm",
+          "instance": 33,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/577.dcm",
+          "instance": 34,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/578.dcm",
+          "instance": 35,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/579.dcm",
+          "instance": 36,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/580.dcm",
+          "instance": 37,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/581.dcm",
+          "instance": 38,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/582.dcm",
+          "instance": 39,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/583.dcm",
+          "instance": 40,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/584.dcm",
+          "instance": 41,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/585.dcm",
+          "instance": 42,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/586.dcm",
+          "instance": 43,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/587.dcm",
+          "instance": 44,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/588.dcm",
+          "instance": 45,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/589.dcm",
+          "instance": 46,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/590.dcm",
+          "instance": 47,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/591.dcm",
+          "instance": 48,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/592.dcm",
+          "instance": 49,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/593.dcm",
+          "instance": 50,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/594.dcm",
+          "instance": 51,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/595.dcm",
+          "instance": 52,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/596.dcm",
+          "instance": 53,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/597.dcm",
+          "instance": 54,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/598.dcm",
+          "instance": 55,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/599.dcm",
+          "instance": 56,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/600.dcm",
+          "instance": 57,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/601.dcm",
+          "instance": 58,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/602.dcm",
+          "instance": 59,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/603.dcm",
+          "instance": 60,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/604.dcm",
+          "instance": 61,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/605.dcm",
+          "instance": 62,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/606.dcm",
+          "instance": 63,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/607.dcm",
+          "instance": 64,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/608.dcm",
+          "instance": 65,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/609.dcm",
+          "instance": 66,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/610.dcm",
+          "instance": 67,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/611.dcm",
+          "instance": 68,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/612.dcm",
+          "instance": 69,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/613.dcm",
+          "instance": 70,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/614.dcm",
+          "instance": 71,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/615.dcm",
+          "instance": 72,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/616.dcm",
+          "instance": 73,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/617.dcm",
+          "instance": 74,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/618.dcm",
+          "instance": 75,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/619.dcm",
+          "instance": 76,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/620.dcm",
+          "instance": 77,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/621.dcm",
+          "instance": 78,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/622.dcm",
+          "instance": 79,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/623.dcm",
+          "instance": 80,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/624.dcm",
+          "instance": 81,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/625.dcm",
+          "instance": 82,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/626.dcm",
+          "instance": 83,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/627.dcm",
+          "instance": 84,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/628.dcm",
+          "instance": 85,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/629.dcm",
+          "instance": 86,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/630.dcm",
+          "instance": 87,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/631.dcm",
+          "instance": 88,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/632.dcm",
+          "instance": 89,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/633.dcm",
+          "instance": 90,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/634.dcm",
+          "instance": 91,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/635.dcm",
+          "instance": 92,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/636.dcm",
+          "instance": 93,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/637.dcm",
+          "instance": 94,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/638.dcm",
+          "instance": 95,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/639.dcm",
+          "instance": 96,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/640.dcm",
+          "instance": 97,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/641.dcm",
+          "instance": 98,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/642.dcm",
+          "instance": 99,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/643.dcm",
+          "instance": 100,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/644.dcm",
+          "instance": 101,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/645.dcm",
+          "instance": 102,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/646.dcm",
+          "instance": 103,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/647.dcm",
+          "instance": 104,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/648.dcm",
+          "instance": 105,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/649.dcm",
+          "instance": 106,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/650.dcm",
+          "instance": 107,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/651.dcm",
+          "instance": 108,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/652.dcm",
+          "instance": 109,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/653.dcm",
+          "instance": 110,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/654.dcm",
+          "instance": 111,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/655.dcm",
+          "instance": 112,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/656.dcm",
+          "instance": 113,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/657.dcm",
+          "instance": 114,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/658.dcm",
+          "instance": 115,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/659.dcm",
+          "instance": 116,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/660.dcm",
+          "instance": 117,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/661.dcm",
+          "instance": 118,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/662.dcm",
+          "instance": 119,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/663.dcm",
+          "instance": 120,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/664.dcm",
+          "instance": 121,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/665.dcm",
+          "instance": 122,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/666.dcm",
+          "instance": 123,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/667.dcm",
+          "instance": 124,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/668.dcm",
+          "instance": 125,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/669.dcm",
+          "instance": 126,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/670.dcm",
+          "instance": 127,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/671.dcm",
+          "instance": 128,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/672.dcm",
+          "instance": 129,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/673.dcm",
+          "instance": 130,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/674.dcm",
+          "instance": 131,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/675.dcm",
+          "instance": 132,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/676.dcm",
+          "instance": 133,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/677.dcm",
+          "instance": 134,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/678.dcm",
+          "instance": 135,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/679.dcm",
+          "instance": 136,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/680.dcm",
+          "instance": 137,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/681.dcm",
+          "instance": 138,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/682.dcm",
+          "instance": 139,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/683.dcm",
+          "instance": 140,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/684.dcm",
+          "instance": 141,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/685.dcm",
+          "instance": 142,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/686.dcm",
+          "instance": 143,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/687.dcm",
+          "instance": 144,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/688.dcm",
+          "instance": 145,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/689.dcm",
+          "instance": 146,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/690.dcm",
+          "instance": 147,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/691.dcm",
+          "instance": 148,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/692.dcm",
+          "instance": 149,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/693.dcm",
+          "instance": 150,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/694.dcm",
+          "instance": 151,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/695.dcm",
+          "instance": 152,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/696.dcm",
+          "instance": 153,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/697.dcm",
+          "instance": 154,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/698.dcm",
+          "instance": 155,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/699.dcm",
+          "instance": 156,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/700.dcm",
+          "instance": 157,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/701.dcm",
+          "instance": 158,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/702.dcm",
+          "instance": 159,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/703.dcm",
+          "instance": 160,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/704.dcm",
+          "instance": 161,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/705.dcm",
+          "instance": 162,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/706.dcm",
+          "instance": 163,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/707.dcm",
+          "instance": 164,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/708.dcm",
+          "instance": 165,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/709.dcm",
+          "instance": 166,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/710.dcm",
+          "instance": 167,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/711.dcm",
+          "instance": 168,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/712.dcm",
+          "instance": 169,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/713.dcm",
+          "instance": 170,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/714.dcm",
+          "instance": 171,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/715.dcm",
+          "instance": 172,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/716.dcm",
+          "instance": 173,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/717.dcm",
+          "instance": 174,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/718.dcm",
+          "instance": 175,
+          "z": 38.536152
+        },
+        {
+          "file": "STUDY001/719.dcm",
+          "instance": 176,
+          "z": 38.536152
+        }
+      ]
+    }
+  ]
+}

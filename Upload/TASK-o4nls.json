@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-09-29T12:44:24.049Z",
+  "files": [
+    {
+      "name": "IMG20260929180717.jpg",
+      "category": "picture",
+      "size": 2011788,
+      "type": "image/jpeg"
+    }
+  ],
+  "primaryReport": "IMG20260929180717.jpg",
+  "targetRegion": "above_neck",
+  "modality": "Report",
+  "impression": "Impression: Evaluated Facial Skeleton. Intact cortical margins with no acute osseous pathology.",
+  "status": "submitted",
+  "instructions": "Read Upload/AGENT_INSTRUCTIONS.md and execute Upload/run-agent.sh --agent grok"
+}

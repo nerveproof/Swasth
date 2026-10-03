@@ -1,0 +1,303 @@
+{
+  "id": "ct-face-3d-20180218-right-zygoma",
+  "sourceFile": "IMG_20260929_074905-295zo.jpg",
+  "modality": "3D CT FACE",
+  "studyDate": "18/02/2018",
+  "history": "Facial skeleton. Please correlate clinically.",
+  "region": "above_neck",
+  "impression": [
+    "Fracture of the right zygomatic bone and of the anterior and lateral walls of the maxillary sinus",
+    "Small fracture of the right lateral orbital wall",
+    "Right zygomatic arch is deformed"
+  ],
+  "normal": [
+    "Mandible appears normal",
+    "Medial and lateral pterygoid plates are normal",
+    "Cribriform plate appears normal",
+    "Base of skull appears normal",
+    "Nasal bones are normal"
+  ],
+  "findings": [
+    "Fracture of the right zygomatic bone",
+    "Fracture of the anterior and lateral walls of the right maxillary sinus",
+    "Small fracture of the right lateral orbital wall",
+    "Deformed right zygomatic arch"
+  ],
+  "notPresent": [
+    "Hemosinus",
+    "Inferior orbital wall fracture",
+    "Left frontal granuloma"
+  ],
+  "mappedParts": {
+    "FJ3392": "Right zygomatic bone — body fracture, small lateral orbital wall fracture, deformed arch",
+    "FJ3375": "Right maxilla — anterior and lateral maxillary sinus wall fractures"
+  },
+  "camera": {
+    "headFocus": true,
+    "side": "right",
+    "view": "three-quarter"
+  },
+  "previousCaseRetained": "ncct-head-20260921-right-zmc",
+  "appendedCases": [
+    {
+      "id": "xray-pns-om-20190608-normal",
+      "sourceFile": "IMG_20260929_172007.jpg",
+      "modality": "X-RAY P.N.S. OM VIEW",
+      "studyDate": "08/06/2019",
+      "centre": "Dr. O.P. Gupta Imaging Centre",
+      "reportedBy": "Dr. Muhammad Qasim, MBBS, DMRD",
+      "history": "Please correlate clinically.",
+      "region": "above_neck",
+      "impression": [
+        "Bilateral maxillary air sinuses appear normal",
+        "Frontal air sinus appears normal",
+        "Nasal septum is in the midline",
+        "Orbital walls appear normal"
+      ],
+      "notPresent": [
+        "Fracture",
+        "Hemosinus",
+        "Left frontal granuloma"
+      ],
+      "mappedParts": {
+        "FJ3375": "Right maxilla — maxillary air sinus normal",
+        "FJ3269": "Left maxilla — maxillary air sinus normal",
+        "FJ3200": "Frontal bone — frontal air sinus normal",
+        "FJ2557": "Septal nasal cartilage — septum midline",
+        "FJ3392": "Right zygomatic bone — orbital walls normal, not painted as a fracture",
+        "FJ3287": "Left zygomatic bone — orbital walls normal"
+      },
+      "camera": {
+        "headFocus": true,
+        "side": "both",
+        "view": "front"
+      },
+      "previousCasesRetained": [
+        "ncct-head-20260921-right-zmc",
+        "ct-face-3d-20180218-right-zygoma"
+      ]
+    },
+    {
+      "id": "mri-nose-pns-20190611-inf-turbinates",
+      "sourceFile": "IMG_20260929_172018.jpg",
+      "modality": "MRI",
+      "studyDate": "11/06/2019",
+      "centre": "Dr. O.P. Gupta Imaging Centre",
+      "reportedBy": "Dr. Muhammad Qasim, MBBS, DMRD",
+      "history": "Please correlate clinically.",
+      "region": "above_neck",
+      "impression": [
+        "Mild prominence of bilateral inferior turbinates",
+        "Otherwise a normal study of the nose and paranasal sinuses"
+      ],
+      "normal": [
+        "Bilateral maxillary, ethmoid, sphenoid, and frontal sinuses clear with intact walls",
+        "No obvious nasal septal deviation",
+        "Nasopharynx normal, no altered signal mass",
+        "Sphenopalatine foramina and pterygopalatine fossae normal",
+        "Bilateral osteomeatal units normal",
+        "Remaining turbinates normal",
+        "Nasal cavities patent, no bony erosion",
+        "Orbits and their contents normal",
+        "Cribriform plate intact with central crista galli",
+        "Pterygoid plates and superior alveolar ridge normal"
+      ],
+      "notPresent": [
+        "Fracture",
+        "Hemosinus",
+        "Granuloma"
+      ],
+      "mappedParts": {
+        "FJ3369": "Right inferior nasal concha — mild prominence",
+        "FJ3263": "Left inferior nasal concha — mild prominence",
+        "FJ2557": "Septal nasal cartilage — no deviation",
+        "FJ3199": "Ethmoid — cribriform plate intact",
+        "FJ3200": "Frontal bone — frontal sinus clear"
+      },
+      "camera": {
+        "headFocus": true,
+        "side": "both",
+        "view": "front"
+      },
+      "previousCasesRetained": [
+        "ncct-head-20260921-right-zmc",
+        "ct-face-3d-20180218-right-zygoma",
+        "xray-pns-om-20190608-normal"
+      ]
+    },
+    {
+      "id": "cbct-right-maxilla-20190727-apical",
+      "sourceFile": "IMG20260929180717-o4nji.jpg",
+      "modality": "CBCT",
+      "studyDate": "27/07/2019",
+      "centre": "Vineet oral diagnostic and imaging center, Meerut",
+      "reportedBy": "Dr Sameer Rastogi, Consultant oral radiologist",
+      "history": "19 year old male with pain in the upper right back tooth for 3 months. Facial trauma 2 years earlier, operated for facial fractures. Endodontic treatment of maxillary right premolars and first molar 3–4 months earlier.",
+      "region": "above_neck",
+      "impression": [
+        "Apical periodontitis / irreversible pulpitis involving the maxillary right first molar and second premolar",
+        "Mild reactive mucosal thickening in the right maxillary sinus",
+        "No crack or fracture line in the crown or root; no breach of labial or lingual cortex"
+      ],
+      "normal": [
+        "No fracture of maxillary right premolars or first molar",
+        "Mouth opening normal",
+        "No vestibular tenderness"
+      ],
+      "notPresent": [
+        "Fracture",
+        "Hemosinus",
+        "Granuloma"
+      ],
+      "mappedParts": {
+        "FJ3375": "Right maxilla — apical periodontitis at teeth 15 and 16, mild right maxillary sinus mucosal thickening, cortex intact"
+      },
+      "camera": {
+        "headFocus": true,
+        "side": "right",
+        "view": "front"
+      },
+      "previousCasesRetained": [
+        "ncct-head-20260921-right-zmc",
+        "ct-face-3d-20180218-right-zygoma",
+        "xray-pns-om-20190608-normal",
+        "mri-nose-pns-20190611-inf-turbinates"
+      ]
+    },
+    {
+      "id": "ct-neck-20260602-left-parotid",
+      "sourceFile": "IMG20260929182228.jpg",
+      "modality": "CT",
+      "studyDate": "02/06/2026",
+      "centre": "Star Radiology",
+      "reportedBy": "Dr. Ankur Aggarwal, MBBS, M.D (Consultant Radiologist), MCI/09-34285",
+      "referredBy": "Dr. Shivesh Goyal",
+      "patient": "Mr. Oshonik, 26Y/M, ID 18120",
+      "history": "Non-contrast spiral CT of the neck from the base of skull to the sternoclavicular joint. Advise clinical correlation.",
+      "region": "above_neck",
+      "impression": [
+        "Well-defined soft-tissue nodular lesion in the left parotid gland, 15.7 x 13.5 mm",
+        "Differential includes pleomorphic adenoma or another benign parotid tumor versus an inflammatory lesion",
+        "USG and FNAC advised for characterization",
+        "Largest node at levels IA, IB, or II measures 12.1 x 10.9 mm and is likely reactive",
+        "Base of skull and cervical spine show no lytic or sclerotic lesion"
+      ],
+      "normal": [
+        "Nasopharynx, oropharynx, and laryngopharynx",
+        "No mass or compression of the air column",
+        "Epiglottis, valleculae, pyriform fossae, vocal cords, and larynx",
+        "Visceral, retropharyngeal, parapharyngeal, prevertebral, and carotid spaces",
+        "Submandibular salivary glands",
+        "Thyroid lobes and isthmus, thyroid cartilage, and cricoid cartilages"
+      ],
+      "notPresent": [
+        "Fracture",
+        "Hemosinus",
+        "Granuloma"
+      ],
+      "mappedParts": {
+        "FJ3289": "Mandible, left ramus — parotid bed. The atlas has no parotid mesh. Marker for the 15.7 x 13.5 mm left parotid nodule.",
+        "FJ2766": "Left submandibular gland — marker for the 12.1 x 10.9 mm likely reactive node at levels IA, IB, and II",
+        "FJ3394": "Sphenoid bone — base of skull, no lytic or sclerotic lesion"
+      },
+      "camera": {
+        "headFocus": true,
+        "side": "left",
+        "view": "front"
+      },
+      "previousCasesRetained": [
+        "ncct-head-20260921-right-zmc",
+        "ct-face-3d-20180218-right-zygoma",
+        "xray-pns-om-20190608-normal",
+        "mri-nose-pns-20190611-inf-turbinates",
+        "cbct-right-maxilla-20190727-apical"
+      ]
+    },
+    {
+      "id": "dicom-mri-20260428-brain-adc",
+      "surface": "dicom-tab",
+      "note": "Shown in the DICOM tab as the PAT001 pixel volume. Removed from Clinical Findings because the atlas mesh cannot represent this MR brain.",
+      "sourceFile": "PAT001",
+      "modality": "MRI",
+      "studyDate": "28/04/2026",
+      "centre": "MR ASSOCIATES SL 3T",
+      "reportedBy": "Series header only; no signed impression in the DICOM summary",
+      "referredBy": "Stracuzzi Margaret H",
+      "patient": "Kumar Oshonik, 26Y/M, ID 98380376",
+      "history": "MR Trigeminal Nerves W/WO Cont. Indexed series AX DWI 2000_ADC. 1669 slices. Please correlate clinically.",
+      "region": "above_neck",
+      "impression": [
+        "Multi-sequence MR brain with and without contrast, indexed on AX DWI 2000 ADC",
+        "Header metadata does not state a diagnostic lesion, acute fracture, hemosinus, or granuloma"
+      ],
+      "normal": [
+        "No acute fracture line taken from the series header",
+        "Skull base and frontal calvarium marked only as within the head study volume"
+      ],
+      "notPresent": [
+        "Fracture",
+        "Hemosinus",
+        "Granuloma"
+      ],
+      "mappedParts": {
+        "FJ3394": "Sphenoid bone and skull base — within the cranial MR span, no fracture line",
+        "FJ3200": "Frontal bone — calvarium within the study volume, no fracture line"
+      },
+      "camera": {
+        "headFocus": true,
+        "side": "both",
+        "view": "front"
+      },
+      "previousCasesRetained": [
+        "ncct-head-20260921-right-zmc",
+        "ct-face-3d-20180218-right-zygoma",
+        "xray-pns-om-20190608-normal",
+        "mri-nose-pns-20190611-inf-turbinates",
+        "cbct-right-maxilla-20190727-apical",
+        "ct-neck-20260602-left-parotid"
+      ]
+    },
+    {
+      "id": "dicom-mri-20260428-pat001",
+      "sourceFile": "PAT001",
+      "modality": "MRI",
+      "studyDate": "28/04/2026",
+      "centre": "MR ASSOCIATES SL 3T",
+      "reportedBy": "MR ASSOCIATES SL 3T",
+      "referredBy": "Stracuzzi Margaret H",
+      "patient": "Kumar Oshonik, 26Y/M, ID 98380376",
+      "history": "MR Trigeminal Nerves W/WO Cont. AX DWI 2000_ADC series. 1669 slices. Please correlate clinically.",
+      "region": "above_neck",
+      "impression": [
+        "MR Trigeminal Nerves W/WO Cont. 1669 slices. AX DWI 2000_ADC.",
+        "No acute fracture line taken from the series header."
+      ],
+      "normal": [
+        "Trigeminal Nerves",
+        "Skull base"
+      ],
+      "notPresent": [
+        "Fracture",
+        "Hemosinus",
+        "Granuloma"
+      ],
+      "mappedParts": {
+        "FMA50801": "Trigeminal Nerves — MR Trigeminal Nerves W/WO Cont"
+      },
+      "camera": {
+        "headFocus": true,
+        "side": "both",
+        "view": "front"
+      },
+      "previousCasesRetained": [
+        "ncct-head-20260921-right-zmc",
+        "ct-face-3d-20180218-right-zygoma",
+        "xray-pns-om-20190608-normal",
+        "mri-nose-pns-20190611-inf-turbinates",
+        "cbct-right-maxilla-20190727-apical",
+        "ct-neck-20260602-left-parotid",
+        "dicom-mri-20260428-brain-adc"
+      ]
+    }
+  ]
+}
