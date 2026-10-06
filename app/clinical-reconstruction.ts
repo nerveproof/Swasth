@@ -597,6 +597,7 @@ export const CLINICAL_CASE_HIGHLIGHT_RGBA: Record<string, Record<string, [number
   'cbct-right-maxilla-20190727-apical': {},
   'ct-neck-20260602-left-parotid': {},
   'dicom-mri-20260428-pat001': {},
+  'fnac-20260605-left-parotid': {},
 };
 
 // export const ACTIVE_CLINICAL_RECONSTRUCTION: ClinicalReconstruction = NCCT_HEAD_TRAUMA_RECONSTRUCTION;
@@ -614,6 +615,7 @@ export function isActiveReconstructionSource(filename: string): boolean {
 
 export function resolveClinicalReport(text: string, filename = ''): ClinicalReportResult {
   if (/PAT001/i.test(filename)) return MR_BRAIN_PAT001_REPORT;
+  if (/IMG20260929182330/i.test(filename)) return FNAC_LEFT_PAROTID_REPORT;
   if (/IMG20260929182228/i.test(filename)) return CT_NECK_LEFT_PAROTID_REPORT;
   if (/IMG20260929180717/i.test(filename)) return CBCT_RIGHT_MAXILLA_REPORT;
   if (/IMG_20260929_172018/i.test(filename)) return MRI_NOSE_PNS_REPORT;
@@ -690,6 +692,50 @@ export function baselineScenePatch(): Pick<
   };
 }
 
+const FNAC_LEFT_PAROTID_FINDINGS: ClinicalFinding[] = [
+  {
+    structureName: 'Left Parotid Gland / Retroauricular',
+    conceptId: 'FMA52748',
+    side: 'left',
+    finding: 'Smear shows normal salivary gland acini adherent to thin fibrovascular stroma. Background shows mild inflammatory infiltrate composed of lymphocytes and few polymorphs. No atypical or malignant cell seen.',
+    severity: 'significant',
+  },
+];
+
+export const FNAC_LEFT_PAROTID_REPORT: ClinicalReportResult = {
+  title: 'Pathology Summary: IMG20260929182330.jpg',
+  modality: 'Report',
+  studyRegion: 'Left retroauricular swelling (above neck)',
+  findings: FNAC_LEFT_PAROTID_FINDINGS,
+  impression: 'Features are consistent with Sialadenitis. Please correlate clinically.',
+  primaryConceptId: 'FMA52748',
+  targetPill: 'skeleton',
+};
+
+export const FNAC_LEFT_PAROTID_RECONSTRUCTION: ClinicalReconstruction = {
+  id: 'fnac-20260605-left-parotid',
+  sourceFile: 'IMG20260929182330.jpg',
+  report: FNAC_LEFT_PAROTID_REPORT,
+  highlightPartIds: [],
+  side: 'left',
+  showFractureLines: false,
+  showHemosinus: false,
+  showGranuloma: false,
+  view: 'front',
+  studyDate: '05/06/2026',
+  caption: 'FNAC \u00B7 SIALADENITIS \u00B7 LEFT RETROAURICULAR',
+  doctorNotes: {
+    author: 'Dr. Asheesh Jain M.D. (Path) \u00B7 Asheesh Pathology Lab Pvt. Ltd.',
+    date: '05/06/2026',
+    category: 'CLINICAL NOTES \u00B7 LEFT PAROTID',
+    title: "Doctor's Clinical Notes \u2014 FNAC Left Retroauricular Swelling",
+    type: 'FNAC Report \u2014 Left parotid swelling',
+    displacement: 'No displacement described. Smear shows normal salivary gland acini.',
+    observation: 'Patient: Mr. Oshonik, Referred by: Dr. Manoj Tayal {M.D}, Lab No: HY-454. Smear shows normal salivary gland acini adherent to thin fibrovascular stroma. Large naked nucleoli of epithelial type are also seen. Background shows mild inflammatory infiltrate mainly composed of lymphocytes and few polymorphs. No atypical or malignant cell seen.',
+    plan: 'Features are consistent with Sialadenitis. Please correlate clinically.',
+  },
+};
+
 export const CLINICAL_CASES: ClinicalReconstruction[] = [
   NCCT_HEAD_TRAUMA_RECONSTRUCTION,
   CT_FACE_3D_RECONSTRUCTION,
@@ -698,6 +744,7 @@ export const CLINICAL_CASES: ClinicalReconstruction[] = [
   CBCT_RIGHT_MAXILLA_RECONSTRUCTION,
   CT_NECK_LEFT_PAROTID_RECONSTRUCTION,
   MR_BRAIN_PAT001_RECONSTRUCTION,
+  FNAC_LEFT_PAROTID_RECONSTRUCTION,
 ];
 
 export function getClinicalCaseById(id: string): ClinicalReconstruction | undefined {

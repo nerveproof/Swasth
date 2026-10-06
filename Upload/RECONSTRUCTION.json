@@ -299,5 +299,49 @@
         "dicom-mri-20260428-brain-adc"
       ]
     }
+    },
+    {
+      "id": "fnac-20260605-left-parotid",
+      "sourceFile": "IMG20260929182330.jpg",
+      "modality": "Report",
+      "studyDate": "05/06/2026",
+      "centre": "Asheesh Pathology Lab Pvt. Ltd.",
+      "reportedBy": "Dr. Asheesh Jain M.D. (Path)",
+      "referredBy": "Dr. Manoj Tayal {M.D}",
+      "patient": "Mr. Oshonik",
+      "history": "Left Retroauricular Swelling",
+      "region": "above_neck",
+      "impression": [
+        "Features are consistent with Sialadenitis",
+        "Please correlate clinically"
+      ],
+      "normal": [
+        "Normal salivary gland acini",
+        "No atypical or malignant cell seen"
+      ],
+      "notPresent": [
+        "Fracture",
+        "Hemosinus",
+        "Granuloma"
+      ],
+      "mappedParts": {
+        "FMA52748": "Left Parotid Gland / Retroauricular — Sialadenitis"
+      },
+      "camera": {
+        "headFocus": true,
+        "side": "left",
+        "view": "front"
+      },
+      "previousCasesRetained": [
+        "ncct-head-20260921-right-zmc",
+        "ct-face-3d-20180218-right-zygoma",
+        "xray-pns-om-20190608-normal",
+        "mri-nose-pns-20190611-inf-turbinates",
+        "cbct-right-maxilla-20190727-apical",
+        "ct-neck-20260602-left-parotid",
+        "dicom-mri-20260428-brain-adc",
+        "dicom-mri-20260428-pat001"
+      ]
+    }
   ]
 }

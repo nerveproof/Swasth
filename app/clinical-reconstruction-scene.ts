@@ -289,6 +289,24 @@ export function mountClinicalReconstruction(parent: T.Group): ClinicalReconstruc
     { id: 'mri-brain-1', label: 'MR Trigeminal Nerves \u00b7 W/WO Cont', world: new T.Vector3(0, 1.6, 0.05), kind: 'normal' },
   ];
 
+  // --- Case 8: fnac-20260605-left-parotid ---
+  const fractureGroup8 = new T.Group();
+  fractureGroup8.name = 'clinical-fracture-lines-case8';
+  fractureGroup8.visible = false;
+  const segments8: Array<{a:[number, number, number]; b:[number, number, number]; radius?:number; glow?:number}> = [];
+  segments8.forEach(seg => {
+    const mesh = segmentMesh(seg.a, seg.b, fractureMat, seg.radius ?? 0.00145);
+    geometries.push(mesh.geometry);
+    fractureGroup8.add(mesh);
+    const glow = segmentMesh(seg.a, seg.b, glowMat, seg.glow ?? 0.0036);
+    geometries.push(glow.geometry);
+    fractureGroup8.add(glow);
+  });
+  group.add(fractureGroup8);
+
+  const anchors8: ClinicalLabelAnchor[] = [
+    { id: 'fnac-sialadenitis', label: 'FNAC: Sialadenitis', world: new T.Vector3(0.049, 1.552, 0.016), kind: 'lesion' },
+  ];
 
   const hemosinusMat = new T.MeshStandardMaterial({
     color: HEMOSINUS_COLOR,
@@ -369,6 +387,7 @@ export function mountClinicalReconstruction(parent: T.Group): ClinicalReconstruc
     fractureGroup5.visible = (activeCaseId === 'cbct-right-maxilla-20190727-apical') && flags.fractureLines;
     fractureGroup6.visible = (activeCaseId === 'ct-neck-20260602-left-parotid') && flags.fractureLines;
     fractureGroup7.visible = (activeCaseId === 'dicom-mri-20260428-pat001') && flags.fractureLines;
+    fractureGroup8.visible = (activeCaseId === 'fnac-20260605-left-parotid') && flags.fractureLines;
     normalGroup3.visible = activeCaseId === 'xray-pns-om-20190608-normal';
     hemosinus.visible = activeCaseId === 'ncct-head-20260921-right-zmc' && flags.hemosinus;
     hemosinusGlow.visible = activeCaseId === 'ncct-head-20260921-right-zmc' && flags.hemosinus && isGlowOn;
@@ -403,6 +422,7 @@ export function mountClinicalReconstruction(parent: T.Group): ClinicalReconstruc
     },
     labelAnchors() {
 
+      if (activeCaseId === 'fnac-20260605-left-parotid') return anchors8;
       if (activeCaseId === 'dicom-mri-20260428-pat001') return anchors7;
       const activeAnchors = (activeCaseId === 'ncct-head-20260921-right-zmc' ? anchors1 : (activeCaseId === 'ct-face-3d-20180218-right-zygoma' ? anchors2 : (activeCaseId === 'xray-pns-om-20190608-normal' ? anchors3 : (activeCaseId === 'mri-nose-pns-20190611-inf-turbinates' ? anchors4 : (activeCaseId === 'cbct-right-maxilla-20190727-apical' ? anchors5 : (activeCaseId === 'ct-neck-20260602-left-parotid' ? anchors6 : []))))));
       return activeAnchors.filter(a => {

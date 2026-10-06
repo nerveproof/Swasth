@@ -56,6 +56,7 @@ import {
 import {overlayCard} from './trigeminal';
 import {FACIAL_NERVE_ROWS,DEEP_TISSUE_ROWS,smasCard,SMAS_COLOR,FAT_COLOR,FACIAL_NERVE_COLOR,PAROTID_COLOR,LYMPH_COLOR,PERIOSTEUM_COLOR} from './smas';
 import {UploadSession,type SessionFile,type SessionFileCategory,inferCategory} from './upload-session';
+import { DocumentArchive } from './document-archive';
 import {type ClinicalReportResult} from './clinical-report';
 import {
  ACTIVE_CLINICAL_RECONSTRUCTION,
@@ -131,6 +132,7 @@ export default function Home(){
  const [notesCaseId, setNotesCaseId] = useState<string>('ct-face-3d-20180218-right-zygoma');
  const [systemsOpen, setSystemsOpen] = useState<boolean>(true);
  const [clinicalPanelOpen, setClinicalPanelOpen] = useState<boolean>(true);
+ const [selectedYear, setSelectedYear] = useState<string | null>(null);
 
  const toggleClinicalCase=(enabled:boolean, caseId?: string)=>{
   setClinicalCaseOn(enabled);
@@ -1125,7 +1127,32 @@ const ALL_TRUE_DENTAL: DentalLayers = { upperJaw: true, lowerJaw: true, teeth: t
     <>
     <div className={`clinical-cases-panel glass ${clinicalPanelOpen ? 'open' : 'collapsed'}`} aria-label="Clinical Cases">
      <div className="clinical-cases-header">
-      <span className="clinical-cases-title">Clinical Findings</span>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+       <span className="clinical-cases-title">Clinical Findings</span>
+       {selectedYear && (
+        <button
+         type="button"
+         onClick={() => setSelectedYear(null)}
+         title={`Filter: ${selectedYear}. Click to clear.`}
+         style={{
+          display: 'inline-flex',
+          alignItems: 'center',
+          gap: '3px',
+          padding: '1px 6px',
+          fontSize: '10px',
+          fontWeight: 600,
+          color: '#3a7d6d',
+          background: '#3a7d6d15',
+          border: '1px solid #3a7d6d35',
+          borderRadius: '10px',
+          cursor: 'pointer'
+         }}
+        >
+         {selectedYear}
+         <X size={10} strokeWidth={2.5} />
+        </button>
+       )}
+      </div>
       <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
        <Switch 
         checked={clinicalCaseOn} 
@@ -1157,7 +1184,13 @@ const ALL_TRUE_DENTAL: DentalLayers = { upperJaw: true, lowerJaw: true, teeth: t
        paddingRight: '4px' 
       }}
      >
-      {CLINICAL_CASES.map((c) => {
+      {CLINICAL_CASES
+       .filter((c) => {
+        if (!selectedYear) return true;
+        const dateStr = c.studyDate ?? (c.sourceFile.includes('2018') ? '18/02/2018' : '2026-09-21');
+        return dateStr.includes(selectedYear) || c.sourceFile.includes(selectedYear);
+       })
+       .map((c) => {
        const isSelected = clinicalCaseOn && activeClinicalCaseId === c.id;
        return (
         <div 
@@ -1217,6 +1250,14 @@ const ALL_TRUE_DENTAL: DentalLayers = { upperJaw: true, lowerJaw: true, teeth: t
         </div>
        );
       })}
+      {selectedYear && CLINICAL_CASES.filter((c) => {
+       const dateStr = c.studyDate ?? (c.sourceFile.includes('2018') ? '18/02/2018' : '2026-09-21');
+       return dateStr.includes(selectedYear) || c.sourceFile.includes(selectedYear);
+      }).length === 0 && (
+       <div style={{ padding: '16px 8px', textAlign: 'center', fontSize: '11px', color: '#788694' }}>
+        No clinical findings indexed for {selectedYear}.
+       </div>
+      )}
      </div>
     </div>
      {!clinicalPanelOpen && (
@@ -1260,6 +1301,8 @@ const ALL_TRUE_DENTAL: DentalLayers = { upperJaw: true, lowerJaw: true, teeth: t
     </Button>
    </nav> */}
 
+   {/* Legacy Systems Panel retired for Document Archive */}
+   {false && (
    <section className={`layers-panel systems-panel glass ${systemsOpen ? 'open' : 'collapsed'} ${panel==='layers'?'mobile-open':''}`} style={{ display: viewMode === 'imaging' ? 'none' : undefined }} aria-label="Anatomical layers">
    <div className="panel-heading">
     <span>Systems</span>
@@ -2296,6 +2339,11 @@ const ALL_TRUE_DENTAL: DentalLayers = { upperJaw: true, lowerJaw: true, teeth: t
     </div>
    </div>
    </section>
+   )}
+   <DocumentArchive 
+    selectedYear={selectedYear}
+    onSelectYear={(yearId) => setSelectedYear(yearId)}
+   />
 
    {!systemsOpen && viewMode === 'anatomy' && (
     <button
@@ -2338,25 +2386,6 @@ const ALL_TRUE_DENTAL: DentalLayers = { upperJaw: true, lowerJaw: true, teeth: t
    <span>{state.clinicalOverlay?(getClinicalCaseById(activeClinicalCaseId)?.caption??'3D CT FACE · RIGHT ZYGOMA # · SINUS WALLS # · ARCH DEFORMED'):state.smasOverlay&&activePill==='face'?'FACIAL SOFT TISSUE & MUSCLES · TEACHING OVERLAY':state.nervousOverlay&&activePill==='trigeminal'?'TRIGEMINAL NERVE (CN V) · TEACHING OVERLAY':state.isolate?(chosen?.name??'SELECTED STRUCTURE'):state.explode>.95?'ANATOMICAL INVENTORY':state.explode>.05?'SEPARATED STRUCTURES':'ADULT HUMAN · MALE'}</span>
    <span className="caption-line"/>
   </div>
-
-  <div className="bottom-dock glass">
-   <Button variant="ghost" className="mobile-only dock-layers" onClick={()=>openPanel('layers')} aria-label="Open system layers">
-    <Layers3 size={20}/><span>Systems</span>
-   </Button>
-   <UploadSession 
-    files={sessionFiles} 
-    onAddFiles={handleAddSessionFiles} 
-    onRemoveFile={handleRemoveSessionFile} 
-    onChangeCategory={handleChangeCategory} 
-    onClearFiles={handleClearSessionFiles}
-    onReportAnalyzed={handleReportAnalyzed}
-   />
-  </div>
-
-  <footer className="studio-footer">
-   <span>{state.explode>.8?'Drag to pan':'Drag to orbit'} <b>·</b> Pinch to zoom <b>·</b> Tap to inspect</span>
-   <Button variant="ghost" onClick={()=>{setDetails(false);setPanel(null);setAbout(true);}}>Source & credits <ArrowUpRight size={12}/></Button>
-  </footer>
 
   {progress<100&&!error&&<div className="loading glass" role="status"><Activity size={18}/><div><strong>Preparing the anatomy</strong><span>{progress}% · Loading {atlas?.parts.length.toLocaleString()??'2,234'} pieces</span><div className="loading-track"><i style={{width:`${progress}%`}}/></div></div></div>}
   {error&&<div className="loading glass error" role="alert"><p>{error}</p><Button variant="ghost" onClick={()=>location.reload()}>Reload viewer</Button></div>}

@@ -16,14 +16,10 @@ Give patients full control of their documentation. Pull up your records on your 
 
 In a recent incident involving someone I know, an ultrasound completed at one hospital had to be repeated at another simply because the second hospital pushed for expensive in-house scans to generate revenue.
 
-## Why Open Source
-
-India's tech community has already proven this model works. UPI replaced card machines with QR codes because phones are cheap and internet access is widespread. The same approach can fix medical records — tools built by the people who actually need them, not sold to them.
-
 ## Who This Is For
 
 A person with chronic conditions who needs to see many specialists, can't afford to repeat expensive tests, and wants their records portable across every doctor they visit. Built first for myself, then for anyone in the same situation.
 
 ## Status
 
-UI is complete. Core features are scaffolded with commented sections. Built with AI-assisted tooling because I need this working now, not in six months of handwriting code. Tooling workflow: primarily built with Super Grok CLI and Grok Bot; when hitting rate limits, switched to Agy CLI and Agy IDE (hate Sam Altman, relying on OpenAI only when there are no other options left). Contributions welcome.
+Built with AI-assisted tooling because I need this working now, not in six months of handwriting code. Tooling workflow: primarily built with Super Grok CLI and Grok Bot; when hitting rate limits, switched to Agy CLI and Agy IDE (hate Sam Altman, relying on OpenAI only when there are no other options left).
