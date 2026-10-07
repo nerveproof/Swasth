@@ -363,10 +363,21 @@ export default function AnatomyScene({atlas,state,onSelect,onNervousSelect,onSma
    if(found<0&&amount>.45)found=findTarget(e.clientX-rect.left,e.clientY-rect.top,e.pointerType==='touch'?24:16);if(found>=0){hover.hidden=true;select.current(atlas.parts[found].id);}
   };
   renderer.domElement.addEventListener('pointerdown',down);renderer.domElement.addEventListener('pointermove',move);renderer.domElement.addEventListener('pointerup',up);renderer.domElement.addEventListener('pointercancel',cancel);
-  const clock=new T.Clock();let lastExtent=-1;
+  const clock=new T.Clock();let lastExtent=-1;let lastTheme='';
   const animate=()=>{
    if(disposed)return;frame=requestAnimationFrame(animate);const dt=Math.min(clock.getDelta(),.05),s=latest.current;
-   const changed=lastState?.visible!==s.visible||lastState?.selected!==s.selected||lastState?.isolate!==s.isolate||lastState?.headFocus!==s.headFocus||lastState?.bodySide!==s.bodySide||lastState?.skeletonSide!==s.skeletonSide||lastState?.nervousOverlay!==s.nervousOverlay||lastState?.nervousLayers!==s.nervousLayers||lastState?.nervousSide!==s.nervousSide||lastState?.nervousSelection!==s.nervousSelection||lastState?.smasOverlay!==s.smasOverlay||lastState?.smasLayers!==s.smasLayers||lastState?.smasSide!==s.smasSide||lastState?.smasSelection!==s.smasSelection||lastState?.faceMuscleLayers!==s.faceMuscleLayers||lastState?.dentalOverlay!==s.dentalOverlay||lastState?.dentalLayers!==s.dentalLayers||lastState?.dentalSide!==s.dentalSide||lastState?.clinicalOverlay!==s.clinicalOverlay||lastState?.clinicalGlow!==s.clinicalGlow||lastState?.clinicalHighlightPartIds!==s.clinicalHighlightPartIds||lastState?.clinicalSide!==s.clinicalSide||lastState?.isSelectiveSliceActive!==s.isSelectiveSliceActive||lastState?.activePill!==s.activePill;
+   if(s.theme!==lastTheme){
+    if(s.theme==='night'){
+     renderer.setClearColor('#0a0510');
+     (ground.material as T.MeshStandardMaterial).color.setHex(0x0a0a0a);
+    }else{
+     renderer.setClearColor('#f2f3f3');
+     (ground.material as T.MeshStandardMaterial).color.setHex(0xd5d9dc);
+    }
+    lastTheme=s.theme;
+    dirty=true;
+   }
+   const changed=lastState?.visible!==s.visible||lastState?.selected!==s.selected||lastState?.isolate!==s.isolate||lastState?.headFocus!==s.headFocus||lastState?.bodySide!==s.bodySide||lastState?.skeletonSide!==s.skeletonSide||lastState?.nervousOverlay!==s.nervousOverlay||lastState?.nervousLayers!==s.nervousLayers||lastState?.nervousSide!==s.nervousSide||lastState?.nervousSelection!==s.nervousSelection||lastState?.smasOverlay!==s.smasOverlay||lastState?.smasLayers!==s.smasLayers||lastState?.smasSide!==s.smasSide||lastState?.smasSelection!==s.smasSelection||lastState?.faceMuscleLayers!==s.faceMuscleLayers||lastState?.dentalOverlay!==s.dentalOverlay||lastState?.dentalLayers!==s.dentalLayers||lastState?.dentalSide!==s.dentalSide||lastState?.clinicalOverlay!==s.clinicalOverlay||lastState?.clinicalGlow!==s.clinicalGlow||lastState?.clinicalHighlightPartIds!==s.clinicalHighlightPartIds||lastState?.clinicalSide!==s.clinicalSide||lastState?.isSelectiveSliceActive!==s.isSelectiveSliceActive||lastState?.activePill!==s.activePill||lastState?.theme!==s.theme;
    const moving=Math.abs(amount-s.explode)>.0001;
    if(moving){amount=T.MathUtils.damp(amount,s.explode,8,dt);dirty=true;}
 

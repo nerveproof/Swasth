@@ -169,6 +169,26 @@ body:has(.detail-sheet) [data-slot=sheet-overlay]{display:none}
 .view-mode-toggle button.active{background:#263b48;color:#fff;box-shadow:0 2px 4px #18253610}
 .view-mode-toggle button:hover:not(.active){background:#18253608;color:#263b48}
 
+.theme-toggle-btn {
+  position: absolute;
+  top: 32px;
+  left: calc(50% + 110px);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  color: #65717e;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.theme-toggle-btn:hover {
+  background: #18253608;
+  color: #263b48;
+}
+
 /* ── Upload Session & Portal ──────────────────────────────────────────────── */
 .upload-session-container{position:relative;display:flex;align-items:center}
 .upload-dock-chip{font-size:12px;font-weight:500;color:#3c4956;gap:7px;height:34px;padding:0 10px;border-radius:9px;border:1px solid #18253612;background:#ffffffa8}

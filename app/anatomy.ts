@@ -76,6 +76,7 @@ export const DEFAULT_DENTAL_LAYERS: DentalLayers = {
 };
 
 export interface SceneState {
+ theme: 'light' | 'night';
  inspectorOpen?:boolean;
  headFocus?:boolean;
  explode:number;

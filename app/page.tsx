@@ -1,7 +1,7 @@
 import {flushSync} from 'react-dom';
 import {registerAtlasTools} from './agent-tools';
 import {lazy,Suspense,useEffect,useMemo,useRef,useState} from 'react';
-import {Activity,ArrowUpRight,Bone,ChevronLeft,ChevronRight,Focus,HeartPulse,Info,Layers3,Lock,Pause,PenLine,RotateCcw,RotateCw,ScanFace,Search,Unlock,X,Zap} from 'lucide-react';
+import {Activity,ArrowUpRight,Bone,ChevronLeft,ChevronRight,Focus,HeartPulse,Info,Layers3,Lock,Pause,PenLine,RotateCcw,RotateCw,ScanFace,Search,Sun,Moon,Unlock,X,Zap} from 'lucide-react';
 import {Button} from '@/components/ui/button';
 import {Badge} from '@/components/ui/badge';
 import {Slider} from '@/components/ui/slider';
@@ -78,6 +78,7 @@ const ToothIcon = ({ size = 15 }: { size?: number }) => (
 type PillType = 'all' | 'skeleton' | 'trigeminal' | 'face' | 'dental' | 'organs';
 
 const initial:SceneState={
+ theme: 'night',
  explode:0,
  visible:DEFAULT_VISIBLE,
  selected:[],
@@ -133,6 +134,16 @@ export default function Home(){
  const [systemsOpen, setSystemsOpen] = useState<boolean>(true);
  const [clinicalPanelOpen, setClinicalPanelOpen] = useState<boolean>(true);
  const [selectedYear, setSelectedYear] = useState<string | null>(null);
+ const [theme,setTheme]=useState<'light'|'night'>(() => {
+   if (typeof window !== 'undefined') {
+     return (localStorage.getItem('swasth-theme') as 'light'|'night') || 'night';
+   }
+   return 'night';
+ });
+
+ useEffect(() => {
+   localStorage.setItem('swasth-theme', theme);
+ }, [theme]);
 
  const toggleClinicalCase=(enabled:boolean, caseId?: string)=>{
   setClinicalCaseOn(enabled);
@@ -1109,7 +1120,7 @@ const ALL_TRUE_DENTAL: DentalLayers = { upperJaw: true, lowerJaw: true, teeth: t
    <div style={{ display: viewMode === 'anatomy' ? 'contents' : 'none' }}>
     {atlas&&<AnatomyScene 
      atlas={atlas} 
-     state={{...state,inspectorOpen:details&&(selectedParts.length>0||!!state.nervousSelection||!!state.smasSelection)}} 
+     state={{...state,theme,inspectorOpen:details&&(selectedParts.length>0||!!state.nervousSelection||!!state.smasSelection)}} 
      onSelect={choosePart} 
      onNervousSelect={chooseNervousSelection}
      onSmasSelect={chooseSmasSelection}
@@ -1122,6 +1133,16 @@ const ALL_TRUE_DENTAL: DentalLayers = { upperJaw: true, lowerJaw: true, teeth: t
     <button type="button" role="tab" aria-selected={viewMode === 'anatomy'} className={viewMode === 'anatomy' ? 'active' : undefined} onClick={() => setViewMode('anatomy')}>Anatomy 3D</button>
     <button type="button" role="tab" aria-selected={viewMode === 'imaging'} className={viewMode === 'imaging' ? 'active' : undefined} onClick={() => setViewMode('imaging')}>DICOM</button>
    </div>
+   {viewMode === 'anatomy' && (
+    <button 
+     type="button" 
+     className="theme-toggle-btn glass" 
+     onClick={() => setTheme(t => t === 'light' ? 'night' : 'light')} 
+     aria-label="Toggle light and night mode"
+    >
+     {theme === 'light' ? <Sun size={18} strokeWidth={2.5} /> : <Moon size={18} strokeWidth={2.5} />}
+    </button>
+   )}
 
    {clinicalReport && viewMode==='anatomy' && (
     <>
